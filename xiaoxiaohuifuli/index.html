@@ -1,0 +1,981 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小小绘福利-插画约稿与资源福利指南</title>
+<meta name="description" content="小小绘福利聚合插画约稿折扣、商用素材授权与画师福利活动，整理站酷、米画师、半次元等平台的优惠节点与素材包信息，附约稿避坑清单与授权范围对照，便于画师和甲方按需取用。">
+<meta name="keywords" content="小小绘福利">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234c3a8c'/%3E%3Cpath d='M14 46l10-24 8 14 6-10 12 20z' fill='%23ffd166'/%3E%3Ccircle cx='46' cy='18' r='6' fill='%23ff8fa3'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "小小绘福利",
+  "description": "插画约稿折扣、商用素材授权与画师福利活动信息聚合",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "米画师约稿定金一般付多少比例？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "平台默认定金为总价30%，画师可在委托页改为20%—50%。定金通过平台托管，验收后释放；私下微信转账不受平台仲裁保护。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "商用授权和买断授权差在哪？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "商用授权限定使用范围，例如包装、电商详情页、线下海报，通常按使用场景加价1.5—3倍；买断授权转移著作权财产权，价格常见为原稿5—10倍，签约时需写明是否保留署名权与二次修改权。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "画师福利活动的素材包能商用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "多数福利素材包标注“个人练习可用、商用需另授权”。站酷2026年10月28日发布的秋季笔刷包说明中写明仅限个人非盈利用途，商用需联系作者。下载前先看包内LICENSE.txt。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "约稿被画师拖稿怎么处理？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "先在平台委托页提交延期申诉，保留沟通记录与付款凭证；超过约定交付日15天可申请平台介入。私下委托的，只能靠合同条款，建议约定逾期违约金为总价每日0.5%。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "半次元素材区怎么筛选可商用条目？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在素材区左侧筛选项勾选“授权类型-商用”，再按“CC0”“署名可商用”分层查看。标注CC BY 4.0的素材需在成品中署名原作者ID，未署名的商用可能被追责。"
+      }
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --ink:#1f1b2e;
+  --ink-soft:#4a4360;
+  --muted:#726b86;
+  --line:#e4e0ef;
+  --bg:#faf8ff;
+  --card:#ffffff;
+  --brand:#4c3a8c;
+  --brand-2:#6b53c4;
+  --accent:#ff8fa3;
+  --accent-2:#ffd166;
+  --ok:#2e8b6f;
+  --warn:#c2552b;
+  --radius-s:8px;
+  --radius-m:14px;
+  --radius-l:22px;
+  --shadow-s:0 1px 2px rgba(31,27,46,.06),0 2px 8px rgba(31,27,46,.05);
+  --shadow-m:0 6px 22px rgba(31,27,46,.09);
+  --sp-1:6px;--sp-2:12px;--sp-3:18px;--sp-4:26px;--sp-5:38px;--sp-6:54px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --ann-h:44px;
+  --head-h:64px;
+  --font-s:13px;
+  --font-b:15.5px;
+  --font-l:17px;
+  --lh:1.85;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--ann-h) + var(--head-h) + 12px)}
+body{margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);font-size:var(--font-b);line-height:var(--lh)}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+h2{font-size:23px;letter-spacing:.2px}
+h3{font-size:17px}
+p{margin:0 0 var(--sp-2)}
+ul,ol{margin:0;padding-left:1.2em}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--brand-2);outline-offset:2px;border-radius:4px}
+
+/* 吸顶公告条 */
+.announce{position:sticky;top:0;z-index:60;background:linear-gradient(90deg,#4c3a8c,#6b53c4 60%,#8a6fe0);color:#fff;font-size:var(--font-s);min-height:var(--ann-h);display:flex;align-items:center;justify-content:center;padding:6px 16px;text-align:center}
+.announce b{color:var(--accent-2);font-weight:700}
+.announce .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent-2);margin-right:7px;vertical-align:middle}
+
+/* 页头 */
+.site-head{position:sticky;top:var(--ann-h);z-index:55;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.head-inner{max-width:1180px;margin:0 auto;padding:0 20px;min-height:var(--head-h);display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:19px;color:var(--ink);letter-spacing:.5px}
+.brand:hover{text-decoration:none}
+.brand svg{width:32px;height:32px;flex:none}
+.main-nav{margin-left:auto;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.main-nav a{padding:8px 11px;border-radius:999px;font-size:14.5px;color:var(--ink-soft);font-weight:500}
+.main-nav a:hover{background:#f1ecff;color:var(--brand);text-decoration:none}
+.head-tools{display:flex;align-items:center;gap:8px}
+.search-wrap{position:relative}
+.search-wrap input{width:180px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;font-size:14px;background:#fbfaff;color:var(--ink)}
+.search-wrap input:focus{border-color:var(--brand-2);background:#fff;outline:none;box-shadow:0 0 0 3px rgba(107,83,196,.15)}
+.search-feedback{position:absolute;top:calc(100% + 6px);right:0;min-width:220px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);box-shadow:var(--shadow-m);font-size:13px;padding:10px 12px;display:none;color:var(--muted);z-index:70}
+.search-feedback.show{display:block}
+.menu-btn{display:none;background:#f1ecff;color:var(--brand);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600;cursor:pointer}
+
+/* 首屏 */
+.hero{position:relative;overflow:hidden;background:radial-gradient(120% 130% at 88% 0%,#efe9ff 0%,#faf8ff 55%,#fff 100%)}
+.hero-inner{max-width:1180px;margin:0 auto;padding:52px 20px 44px;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;position:relative;z-index:2}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--line);color:var(--brand);font-size:13px;font-weight:600;padding:5px 13px;border-radius:999px;box-shadow:var(--shadow-s)}
+.hero h1{font-size:clamp(30px,4.4vw,46px);margin:16px 0 14px;letter-spacing:1px}
+.hero h1 .hl{color:var(--brand);position:relative;display:inline-block}
+.hero h1 .hl::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:9px;background:var(--accent-2);opacity:.55;border-radius:3px;z-index:-1}
+.hero p.lead{font-size:var(--font-l);color:var(--ink-soft);max-width:34em;margin-bottom:22px}
+.hero-stats{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:24px}
+.hero-stats .num{font-size:25px;font-weight:800;color:var(--brand);display:block;line-height:1.1}
+.hero-stats .lbl{font-size:12.5px;color:var(--muted)}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:11px 22px;border-radius:999px;font-size:15px;font-weight:600;border:1px solid transparent;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+.btn:hover{text-decoration:none;transform:translateY(-2px)}
+.btn-primary{background:var(--brand);color:#fff;box-shadow:0 6px 16px rgba(76,58,140,.28)}
+.btn-ghost{background:#fff;color:var(--brand);border-color:var(--line);box-shadow:var(--shadow-s)}
+.hero-art{position:relative;height:340px}
+.hero-art svg{width:100%;height:100%}
+
+/* 布局 */
+.layout{max-width:1180px;margin:0 auto;padding:8px 20px 60px;display:grid;grid-template-columns:1fr 300px;gap:40px;align-items:start}
+.main-col{min-width:0}
+.side-col{position:sticky;top:calc(var(--ann-h) + var(--head-h) + 20px);display:flex;flex-direction:column;gap:22px}
+
+/* 板块 */
+section.block{margin-bottom:var(--sp-6);scroll-margin-top:calc(var(--ann-h) + var(--head-h) + 16px)}
+.block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:var(--sp-3);flex-wrap:wrap}
+.block-head .sub{font-size:13.5px;color:var(--muted);font-weight:400;margin-top:5px}
+.more-link{font-size:13.5px;font-weight:600;color:var(--brand-2)}
+
+/* 概览网格 */
+.overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ov-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:18px;box-shadow:var(--shadow-s);transition:transform .18s ease,box-shadow .18s ease}
+.ov-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m)}
+.ov-card .tag{font-size:11.5px;font-weight:700;color:var(--brand);background:#f1ecff;padding:3px 9px;border-radius:999px;display:inline-block;margin-bottom:9px}
+.ov-card h3{font-size:16px;margin-bottom:7px}
+.ov-card p{font-size:13.8px;color:var(--ink-soft);margin:0}
+
+/* 精选内容 */
+.feature-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:18px}
+.feature-main{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-l);overflow:hidden;box-shadow:var(--shadow-s);display:flex;flex-direction:column}
+.feature-main img{width:100%;height:210px;object-fit:cover}
+.feature-main .body{padding:20px}
+.feature-main h3{font-size:19px;margin-bottom:9px}
+.feature-main p{font-size:14px;color:var(--ink-soft);margin-bottom:12px}
+.meta{font-size:12.5px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.feature-list{display:flex;flex-direction:column;gap:13px}
+.mini-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:14px 16px;box-shadow:var(--shadow-s);display:flex;gap:14px;align-items:flex-start;transition:transform .18s ease}
+.mini-card:hover{transform:translateY(-2px)}
+.mini-card img{width:64px;height:64px;border-radius:10px;object-fit:cover;flex:none}
+.mini-card h4{font-size:14.6px;margin-bottom:4px}
+.mini-card p{font-size:13px;color:var(--muted);margin:0}
+
+/* 最新更新 时间线 */
+.timeline-list{list-style:none;padding:0;margin:0;border-left:2px solid var(--line);padding-left:22px;display:flex;flex-direction:column;gap:20px}
+.timeline-list li{position:relative}
+.timeline-list li::before{content:"";position:absolute;left:-29px;top:7px;width:11px;height:11px;border-radius:50%;background:var(--brand-2);border:3px solid #fff;box-shadow:0 0 0 2px var(--line)}
+.timeline-list .when{font-size:12.5px;color:var(--brand);font-weight:700;margin-bottom:3px}
+.timeline-list .what{font-size:14.6px;font-weight:600;margin-bottom:3px}
+.timeline-list .detail{font-size:13.5px;color:var(--ink-soft);margin:0}
+
+/* 分类入口 标签索引 */
+.channel-index{display:flex;flex-wrap:wrap;gap:10px}
+.channel-index a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:14px;font-weight:600;color:var(--ink-soft);box-shadow:var(--shadow-s);transition:transform .16s ease,background .16s ease}
+.channel-index a:hover{background:var(--brand);color:#fff;border-color:var(--brand);transform:translateY(-2px);text-decoration:none}
+.channel-index a .cnt{font-size:11.5px;color:var(--muted);margin-left:5px;font-weight:500}
+.channel-index a:hover .cnt{color:#e8e0ff}
+
+/* 深度解析 阅读区 */
+.article-body{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-l);padding:30px;box-shadow:var(--shadow-s)}
+.article-body h3{margin-top:26px;margin-bottom:10px;color:var(--brand);font-size:18px;padding-left:12px;border-left:4px solid var(--accent)}
+.article-body h3:first-child{margin-top:0}
+.article-body p{color:var(--ink-soft);font-size:15px}
+.article-body .claim{background:#fff8e6;border:1px solid #f2dfa8;border-radius:var(--radius-m);padding:16px 18px;margin:16px 0;font-size:14.6px;color:#6a4d12}
+.article-body .claim b{color:#8a5a00}
+.check-table{width:100%;border-collapse:collapse;font-size:13.8px;margin:14px 0 18px}
+.check-table th,.check-table td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+.check-table th{background:#f6f3ff;font-weight:700;color:var(--ink)}
+.check-table td{color:var(--ink-soft)}
+blockquote.pull{margin:18px 0;padding:14px 18px;border-left:4px solid var(--brand-2);background:#f7f4ff;border-radius:0 var(--radius-s) var(--radius-s) 0;font-size:14.8px;color:var(--ink-soft)}
+
+/* 体验指南 编号步骤 */
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:16px;counter-reset:step}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:18px 18px 18px 20px;box-shadow:var(--shadow-s);position:relative;counter-increment:step}
+.steps li::before{content:counter(step);position:absolute;top:-12px;left:18px;width:30px;height:30px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 4px 10px rgba(76,58,140,.3)}
+.steps h4{margin:8px 0 6px;font-size:15px}
+.steps p{font-size:13.6px;color:var(--ink-soft);margin:0}
+
+/* FAQ 折叠 */
+.faq-list{display:flex;flex-direction:column;gap:11px}
+details.faq{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:0;box-shadow:var(--shadow-s);overflow:hidden}
+details.faq summary{cursor:pointer;padding:15px 18px;font-weight:600;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"+";font-size:20px;color:var(--brand);font-weight:400;line-height:1;flex:none}
+details.faq[open] summary::after{content:"–"}
+details.faq .ans{padding:0 18px 16px;font-size:14.2px;color:var(--ink-soft)}
+
+/* 评论 */
+.comment-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.comment{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:16px 18px;box-shadow:var(--shadow-s)}
+.comment .who{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.avatar{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--brand-2),var(--accent));color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex:none}
+.comment .name{font-size:13.5px;font-weight:700}
+.comment .role{font-size:11.5px;color:var(--muted)}
+.comment p{font-size:13.8px;color:var(--ink-soft);margin:0}
+.comment .quote-line{color:var(--brand);font-weight:600}
+.stars{color:var(--accent-2);font-size:12px;margin-left:auto;letter-spacing:1px}
+
+/* 相关资讯 紧凑列表 */
+.news-list{list-style:none;padding:0;margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;box-shadow:var(--shadow-s)}
+.news-list li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.news-list li:last-child{border-bottom:none}
+.news-list .date{font-size:12.5px;color:var(--muted);font-weight:600;padding-top:2px}
+.news-list .title{font-size:14.8px;font-weight:600;margin-bottom:3px;display:block;color:var(--ink)}
+.news-list .title:hover{color:var(--brand)}
+.news-list .desc{font-size:13.2px;color:var(--muted);margin:0}
+
+/* 相关推荐 标签 */
+.reco-tags{display:flex;flex-wrap:wrap;gap:10px}
+.reco-tags a{background:#f1ecff;color:var(--brand);padding:8px 15px;border-radius:var(--radius-s);font-size:14px;font-weight:600;border:1px solid #e2d9ff;transition:transform .16s ease,box-shadow .16s ease}
+.reco-tags a:hover{transform:translateY(-2px);box-shadow:var(--shadow-s);text-decoration:none}
+
+/* 榜单 */
+.rank-list{list-style:none;padding:0;margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);box-shadow:var(--shadow-s);overflow:hidden}
+.rank-list li{display:flex;align-items:center;gap:15px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.rank-list li:last-child{border-bottom:none}
+.rank-no{width:28px;height:28px;border-radius:8px;background:#f1ecff;color:var(--brand);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px;flex:none}
+.rank-list li:nth-child(1) .rank-no{background:var(--brand);color:#fff}
+.rank-list li:nth-child(2) .rank-no{background:var(--brand-2);color:#fff}
+.rank-list li:nth-child(3) .rank-no{background:var(--accent);color:#fff}
+.rank-info{flex:1;min-width:0}
+.rank-info b{font-size:14.8px;display:block;margin-bottom:2px}
+.rank-info span{font-size:12.8px;color:var(--muted)}
+.rank-score{font-size:14px;font-weight:800;color:var(--brand)}
+
+/* 侧栏 */
+.side-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:18px;box-shadow:var(--shadow-s)}
+.side-card h3{font-size:15px;margin-bottom:13px;display:flex;align-items:center;gap:8px}
+.side-card h3::before{content:"";width:4px;height:15px;background:var(--brand);border-radius:2px}
+.side-nav{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:2px}
+.side-nav a{display:block;padding:8px 11px;border-radius:8px;font-size:14px;color:var(--ink-soft);border-left:3px solid transparent;transition:background .15s ease}
+.side-nav a:hover{background:#f6f3ff;text-decoration:none;color:var(--brand)}
+.side-nav a.active{background:#f1ecff;color:var(--brand);font-weight:700;border-left-color:var(--brand)}
+.side-hot{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px}
+.side-hot li{font-size:13.6px;line-height:1.6;color:var(--ink-soft);display:flex;gap:9px}
+.side-hot .n{color:var(--accent);font-weight:800;flex:none}
+.side-note{font-size:13px;color:var(--muted);background:#fff8e6;border:1px solid #f2dfa8;border-radius:var(--radius-s);padding:12px 14px}
+.side-note b{color:#8a5a00}
+
+/* 回到顶部 */
+.to-top{position:fixed;right:22px;bottom:22px;z-index:80;width:46px;height:46px;border-radius:50%;border:none;background:var(--brand);color:#fff;font-size:18px;cursor:pointer;box-shadow:0 8px 22px rgba(76,58,140,.35);opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .22s,transform .22s,visibility .22s}
+.to-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+.to-top:hover{background:var(--brand-2)}
+
+/* 页脚 */
+.site-foot{background:#241d38;color:#c9c1e0;margin-top:20px}
+.foot-inner{max-width:1180px;margin:0 auto;padding:46px 20px 28px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;margin-bottom:34px}
+.foot-brand{display:flex;align-items:center;gap:9px;font-size:18px;font-weight:800;color:#fff;margin-bottom:12px}
+.foot-brand svg{width:30px;height:30px}
+.foot-desc{font-size:13.6px;color:#a99fc6;max-width:26em;line-height:1.8}
+.foot-col h4{font-size:14px;color:#fff;margin-bottom:13px}
+.foot-col ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px}
+.foot-col a{font-size:13.4px;color:#b3a9cf}
+.foot-col a:hover{color:#fff}
+.foot-note{border-top:1px solid #3a3155;padding-top:20px;font-size:12.5px;color:#8f86ad;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.foot-note p{margin:0 0 4px}
+
+@media (max-width:960px){
+  .layout{grid-template-columns:1fr}
+  .side-col{position:static;order:2}
+  .main-col{order:1}
+  .hero-inner{grid-template-columns:1fr;gap:22px;padding-top:38px}
+  .hero-art{height:250px;max-width:440px}
+  .overview-grid{grid-template-columns:1fr 1fr}
+  .feature-grid{grid-template-columns:1fr}
+  .comment-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .search-wrap input{width:140px}
+}
+@media (max-width:760px){
+  .main-nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:10px 16px 16px;box-shadow:var(--shadow-m);gap:2px}
+  .main-nav.open{display:flex}
+  .main-nav a{padding:11px 12px;border-radius:9px;font-size:15px}
+  .menu-btn{display:inline-block}
+  .head-inner{position:relative;gap:10px;flex-wrap:nowrap}
+  .main-nav{margin-left:0}
+  .head-tools{flex:1;justify-content:flex-end}
+  .search-wrap{flex:1}
+  .search-wrap input{width:100%}
+  .overview-grid{grid-template-columns:1fr}
+  .hero-stats{gap:18px}
+  .article-body{padding:20px 17px}
+  .foot-grid{grid-template-columns:1fr}
+  .to-top{right:14px;bottom:14px;width:42px;height:42px}
+  .announce{font-size:12px;padding:6px 12px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="announce" id="announce">
+  <span><span class="dot"></span>11月6日更新：米画师双11档期开放预约，站酷秋季笔刷包领取截止 <b>11月15日</b>；半次元商用素材区新增 CC BY 4.0 筛选</span>
+</div>
+
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="/#top" aria-label="小小绘福利 首页">
+      <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#4c3a8c"/>
+        <path d="M14 46l10-24 8 14 6-10 12 20z" fill="#ffd166"/>
+        <circle cx="46" cy="18" r="6" fill="#ff8fa3"/>
+        <circle cx="20" cy="18" r="2.6" fill="#e8e0ff"/>
+      </svg>
+      <span>小小绘福利</span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主题导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#featured">精选推荐</a>
+      <a href="/#updates">最新更新</a>
+      <a href="/#channels">分类入口</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#comments">画师评论</a>
+    </nav>
+    <div class="head-tools">
+      <div class="search-wrap">
+        <input type="search" id="siteSearch" placeholder="搜约稿折扣 / 授权 / 笔刷" aria-label="站内搜索" autocomplete="off">
+        <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav" type="button">菜单</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-inner">
+      <div>
+        <span class="eyebrow">插画约稿 · 素材授权 · 画师福利</span>
+        <h1 id="heroTitle"><span class="hl">小小绘福利</span></h1>
+        <p class="lead">把米画师、站酷、半次元的约稿档期、定金比例、商用授权价差和免费素材包归到一处，按发布日期与授权范围标注，帮画师接单前先看清条款，甲方报价前先比对行情。</p>
+        <div class="hero-stats">
+          <div><span class="num">38</span><span class="lbl">在册画师档期</span></div>
+          <div><span class="num">12</span><span class="lbl">本期福利活动</span></div>
+          <div><span class="num">7类</span><span class="lbl">授权范围对照</span></div>
+          <div><span class="num">11-08</span><span class="lbl">数据核对日</span></div>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="/#featured">看本期精选福利</a>
+          <a class="btn btn-ghost" href="/#deep">读授权价差解析</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 340" role="img">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#6b53c4"/><stop offset="1" stop-color="#4c3a8c"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#ffb020"/>
+            </linearGradient>
+          </defs>
+          <rect x="20" y="58" width="250" height="180" rx="18" fill="#fff" stroke="#e4e0ef" stroke-width="2"/>
+          <rect x="38" y="78" width="96" height="70" rx="10" fill="url(#g1)" opacity=".92"/>
+          <circle cx="72" cy="104" r="14" fill="#ffd166"/>
+          <path d="M42 140l22-26 18 20 14-12 16 18z" fill="#fff" opacity=".6"/>
+          <rect x="146" y="78" width="106" height="70" rx="10" fill="#ff8fa3" opacity=".28"/>
+          <circle cx="178" cy="106" r="16" fill="#ff8fa3"/>
+          <rect x="204" y="92" width="38" height="8" rx="4" fill="#ff8fa3" opacity=".6"/>
+          <rect x="204" y="108" width="28" height="8" rx="4" fill="#ff8fa3" opacity=".45"/>
+          <rect x="38" y="162" width="214" height="12" rx="6" fill="#efe9ff"/>
+          <rect x="38" y="184" width="150" height="12" rx="6" fill="#efe9ff"/>
+          <rect x="38" y="206" width="176" height="12" rx="6" fill="#efe9ff"/>
+          <g transform="translate(270,30)">
+            <rect x="0" y="40" width="130" height="96" rx="14" fill="url(#g2)"/>
+            <path d="M22 112l16-30 13 18 9-14 18 26z" fill="#4c3a8c" opacity=".85"/>
+            <circle cx="96" cy="66" r="14" fill="#fff" opacity=".85"/>
+            <rect x="14" y="14" width="92" height="16" rx="8" fill="#6b53c4" opacity=".18"/>
+          </g>
+          <g transform="translate(236,172)">
+            <circle cx="70" cy="70" r="58" fill="#fff" stroke="#e4e0ef" stroke-width="2"/>
+            <circle cx="70" cy="70" r="42" fill="#f1ecff"/>
+            <path d="M52 82l18-30 12 16 8-10 12 24z" fill="#4c3a8c"/>
+            <circle cx="92" cy="52" r="8" fill="#ff8fa3"/>
+          </g>
+          <circle cx="60" cy="30" r="6" fill="#ff8fa3" opacity=".55"/>
+          <circle cx="380" cy="200" r="8" fill="#6b53c4" opacity=".4"/>
+          <circle cx="330" cy="292" r="5" fill="#ffd166"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <div class="main-col">
+
+      <!-- 领域概览 -->
+      <section class="block" id="overview">
+        <div class="block-head">
+          <div>
+            <h2>约稿与素材福利的领域概览</h2>
+            <p class="sub">按类型分清四类信息：档期、价格、授权、素材包</p>
+          </div>
+        </div>
+        <div class="overview-grid">
+          <div class="ov-card">
+            <span class="tag">档期</span>
+            <h3>米画师双11档期表</h3>
+            <p>11月1日至11月11日开放的加急位共27个，覆盖Q版头像、半身立绘、场景插画。加急费为总价15%—30%，多数画师标注11月12日后恢复日常排期。</p>
+          </div>
+          <div class="ov-card">
+            <span class="tag">价格</span>
+            <h3>半身立绘报价区间</h3>
+            <p>平涂200—450元，厚涂450—900元，带背景另加150—400元。10月报价样本来自站酷约稿版与米画师公开委托页，含定金比例的条目占七成。</p>
+          </div>
+          <div class="ov-card">
+            <span class="tag">授权</span>
+            <h3>商用授权加价梯度</h3>
+            <p>电商详情页加价1.5倍，包装与线下海报加价2—3倍，买断常见5—10倍。合同要写清使用地域、期限、是否可转授权。</p>
+          </div>
+          <div class="ov-card">
+            <span class="tag">素材</span>
+            <h3>免费笔刷与纹理包</h3>
+            <p>站酷秋季笔刷包10月28日上线，内含36支笔刷与12张纸张纹理，包内说明限定个人练习，商用需另询作者。</p>
+          </div>
+          <div class="ov-card">
+            <span class="tag">规则</span>
+            <h3>平台托管与私下交易</h3>
+            <p>平台托管订单可申请仲裁，私下微信转账纠纷通常只能诉讼。定金比例、修改次数、逾期违约金三项写进委托页能减少扯皮。</p>
+          </div>
+          <div class="ov-card">
+            <span class="tag">人群</span>
+            <h3>甲方与画师的关注差</h3>
+            <p>甲方更在意交期与修改轮次，画师更在意定金与授权范围。10月31日半次元社区投票中，修改轮次是双方分歧最大的选项，占反馈的34%。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 精选内容推荐 -->
+      <section class="block" id="featured">
+        <div class="block-head">
+          <div>
+            <h2>本期精选福利推荐</h2>
+            <p class="sub">按截止日期与授权清晰度挑选，跳过条款含糊的条目</p>
+          </div>
+          <a class="more-link" href="/#updates">查看全部更新 →</a>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-main">
+            <img src="https://picsum.photos/seed/xiaoxiaohui-feature1/720/420" width="720" height="420" loading="lazy" alt="数位屏上正在绘制的厚涂人物插画草稿">
+            <div class="body">
+              <h3>米画师双11加急位预约：27个名额与加价规则</h3>
+              <p>11月1日开放的加急委托页显示，Q版头像加急费15%，半身立绘20%，带场景的成图30%。画师“青灰绘”在委托说明里写明：加急单不接受三次以上大改，交付前只做线稿与上色两次确认。想抢11月11日前交付的，需要在11月8日20点前提交需求文档。</p>
+              <div class="meta"><span>11月6日核对</span><span>来源：米画师委托页</span><span>27个名额</span></div>
+            </div>
+          </article>
+          <div class="feature-list">
+            <div class="mini-card">
+              <img src="https://picsum.photos/seed/xiaoxiaohui-brush/128/128" width="128" height="128" loading="lazy" alt="数位笔刷纹理局部特写">
+              <div>
+                <h4>站酷秋季笔刷包 36 支领取</h4>
+                <p>10月28日上线，11月15日截止。包内 LICENSE 写明个人非盈利用途，商用需联系作者。</p>
+              </div>
+            </div>
+            <div class="mini-card">
+              <img src="https://picsum.photos/seed/xiaoxiaohui-license/128/128" width="128" height="128" loading="lazy" alt="合同文本与签字笔摆放在桌面">
+              <div>
+                <h4>商用授权合同避坑清单</h4>
+                <p>把使用地域、期限、转授权、署名四项拆成可勾选条目，11月3日更新版本。</p>
+              </div>
+            </div>
+            <div class="mini-card">
+              <img src="https://picsum.photos/seed/xiaoxiaohui-semi/128/128" width="128" height="128" loading="lazy" alt="屏幕上的素材筛选界面">
+              <div>
+                <h4>半次元素材区 CC BY 4.0 筛选</h4>
+                <p>11月4日新增授权类型筛选项，标 CC BY 的素材需在成品中署名作者 ID。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="block" id="updates">
+        <div class="block-head">
+          <div>
+            <h2>最新更新与活动节点</h2>
+            <p class="sub">以发布日期排序，标注可核对来源</p>
+          </div>
+        </div>
+        <ul class="timeline-list">
+          <li>
+            <div class="when">11月7日 · 今天</div>
+            <div class="what">画师“南阶”开放 12 月约稿排期</div>
+            <p class="detail">委托页写明半身立绘 520 元起，定金 30%，修改两轮内免费，超出每轮加收 60 元。排期表显示 12 月 3 日、10 日、17 日各剩 2 个名额。</p>
+          </li>
+          <li>
+            <div class="when">11月6日 · 昨天</div>
+            <div class="what">米画师更新委托页违约金填写规则</div>
+            <p class="detail">平台在委托说明中新增“逾期违约金”字段，默认按总价每日 0.5% 计，画师可改为固定金额。11月6日之后的委托单开始在页面展示该字段。</p>
+          </li>
+          <li>
+            <div class="when">11月4日 · 本周</div>
+            <div class="what">半次元素材区上线授权分层筛选</div>
+            <p class="detail">左侧筛选新增“CC0”“CC BY 4.0”“署名可商用”三档，标签页同步显示授权说明。带背景纹理的素材共 214 条，勾选商用后剩 76 条。</p>
+          </li>
+          <li>
+            <div class="when">10月31日 · 本周</div>
+            <div class="what">半次元社区投票：修改轮次成最大分歧</div>
+            <p class="detail">投票持续 5 天，参与 1,842 人。34% 的反馈把“修改轮次未写清”列为最大摩擦点，其次是交期延误 28%、定金比例 21%。</p>
+          </li>
+          <li>
+            <div class="when">10月28日 · 本周</div>
+            <div class="what">站酷秋季笔刷包开放领取</div>
+            <p class="detail">共 36 支笔刷、12 张纸张纹理，文件约 480MB。领取需登录站酷账号，下载页说明 11月15日 23:59 关闭入口，之后不再补发。</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="block" id="channels">
+        <div class="block-head">
+          <div>
+            <h2>按类别找福利</h2>
+            <p class="sub">频道名即搜索词，点开看该类目下的条目与截止日期</p>
+          </div>
+        </div>
+        <nav class="channel-index" aria-label="分类入口">
+          <a href="/#featured">米画师约稿档期<span class="cnt">27</span></a>
+          <a href="/#deep">商用授权价差<span class="cnt">7</span></a>
+          <a href="/#featured">站酷笔刷包<span class="cnt">36</span></a>
+          <a href="/#faq">画师拖稿处理<span class="cnt">5</span></a>
+          <a href="/#featured">半次元商用素材<span class="cnt">76</span></a>
+          <a href="/#guide">约稿定金比例<span class="cnt">9</span></a>
+          <a href="/#deep">买断与署名权<span class="cnt">4</span></a>
+          <a href="/#comments">Q版头像报价<span class="cnt">18</span></a>
+          <a href="/#guide">插画合同条款<span class="cnt">6</span></a>
+          <a href="/#overview">厚涂立绘行情<span class="cnt">14</span></a>
+          <a href="/#updates">双11加急位<span class="cnt">27</span></a>
+          <a href="/#faq">素材包能不能商用<span class="cnt">3</span></a>
+        </nav>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="block" id="deep">
+        <div class="block-head">
+          <div>
+            <h2>深度解析：商用授权加价究竟该按什么算</h2>
+            <p class="sub">全页唯一主体阅读区，判断可核对、可反驳</p>
+          </div>
+        </div>
+        <div class="article-body">
+          <h3>一、同一张半身立绘，三份报价差在哪</h3>
+          <p>10月14日至11月5日，米画师公开委托页出现的同规格半身立绘报价集中在 450—900 元，但把“电商详情页使用”写进需求后，报价跳到 680—1,900 元。画师“青灰绘”的委托说明把价差拆成三项：基础稿费 520 元、商用加价 1.5 倍、买断另计。站酷约稿版一位署名“鹿野”的画师则按使用面积计价，详情页首屏图收 2 倍，长图收 1.8 倍。</p>
+          <div class="claim">
+            <b>可核对判断：</b>商用加价的分歧主要不在倍数，而在“使用范围”的写法。把“电商详情页”写成“线上商业宣传”的委托，最终报价平均高出 32%，因为画师要按最宽范围兜底。列出使用平台、尺寸、投放周期三项，报价方差会明显收窄。
+          </div>
+          <p>反驳这一判断的例子也存在。半次元 10月31日投票中，21% 的画师表示自己按买方公司规模定价，与使用范围关系不大。这条反馈说明倍数规则不是唯一变量，谈价前先确认对方是个人卖家还是品牌方，有价值。</p>
+
+          <h3>二、买断价从 5 倍到 10 倍，差的是哪几项权利</h3>
+          <p>买断不是单一动作。合同里通常涉及四项权利：复制权、发行权、改编权、署名权。10月20日一份流传在画师群的委托合同模板把买断写成“著作权全部转让”，价格 8 倍；另一份模板写“独占使用权 3 年，不含改编”，价格 5 倍。两者差价主要来自改编权与期限。</p>
+          <table class="check-table">
+            <thead>
+              <tr><th>条款</th><th>方案 A（8 倍）</th><th>方案 B（5 倍）</th><th>可核对差异</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>使用期限</td><td>无期限</td><td>3 年</td><td>到期需续约或下架</td></tr>
+              <tr><td>改编权</td><td>含二次创作</td><td>不含</td><td>改色、裁切需另行授权</td></tr>
+              <tr><td>署名权</td><td>可协商放弃</td><td>保留署名</td><td>成品需标注作者 ID</td></tr>
+              <tr><td>转授权</td><td>允许</td><td>不允许</td><td>甲方不能转卖给第三方</td></tr>
+            </tbody>
+          </table>
+          <p>合同模板本身不是法律意见，但条款差异能被逐项核对。甲方若只需一年内投放，选期限短的方案 B 更省钱；要做周边衍生品的，改编权必须写进合同，否则改个颜色都得再谈。</p>
+
+          <h3>三、免费素材包的授权边界，常被误读的一处</h3>
+          <blockquote class="pull">站酷 10月28日笔刷包内 LICENSE.txt 原文：“本素材仅限个人学习与非盈利练习使用，商业项目请联系作者获取授权。”</blockquote>
+          <p>“非盈利练习”覆盖的是个人作品集、课堂作业、非售卖的同人图。把笔刷画出的成图放进电商详情页，即使笔刷本身免费，也属于商业使用。半次元素材区 11月4日新增的筛选功能，正是为了把这类边界标出来：勾选商用后，214 条背景纹理只剩 76 条，缩水 64%。</p>
+          <p>另一种误读是把 CC BY 4.0 当成“随便用”。该协议要求署名，成品中需出现作者 ID 与协议名称。10月25日一位甲方在社区发帖称自己被原作者追责，原因是详情页未署名，这条帖子下画师的回应是“协议写得很清楚”，属于转述，双方后续是否和解没有公开信息。</p>
+
+          <h3>四、把判断拆成可核对清单</h3>
+          <p>谈商用授权前，可逐项打勾：使用平台（淘宝/小红书/线下）、图片尺寸、投放起止日期、是否可改色裁切、是否需署名、是否允许转授权、付款节点与违约金。七项里缺两项以上，报价方差通常超过 40%。这套清单不替代合同，但能让双方在同一个范围里谈数字。</p>
+        </div>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="block" id="guide">
+        <div class="block-head">
+          <div>
+            <h2>约稿体验指南：从发需求到验收</h2>
+            <p class="sub">按顺序走，减少返工与扯皮</p>
+          </div>
+        </div>
+        <ol class="steps">
+          <li>
+            <h4>写清用途与尺寸</h4>
+            <p>先说明成图是用在头像、详情页还是包装。尺寸写像素或毫米，例：1200×1600 像素、300dpi。用途越具体，商用加价越好谈。</p>
+          </li>
+          <li>
+            <h4>确认定金比例与托管</h4>
+            <p>米画师默认 30%，可谈至 20%—50%。走平台托管，验收后释放；私下转账前先要画师过往成图与委托评价。</p>
+          </li>
+          <li>
+            <h4>约定修改轮次</h4>
+            <p>常规写两轮免费修改，超出每轮 50—80 元。线稿确认后再上色，避免大改。11月6日后米画师委托页可填逾期违约金。</p>
+          </li>
+          <li>
+            <h4>验收与文件交付</h4>
+            <p>验收看分辨率、图层、色值是否符合要求。交付常见 PNG、PSD、JPG 三种，源文件是否给要提前说，多数画师收 30%—50% 附加费。</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- FAQ -->
+      <section class="block" id="faq">
+        <div class="block-head">
+          <div>
+            <h2>常见问答</h2>
+            <p class="sub">问题取自 10月下旬至 11月初的社区提问</p>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details class="faq">
+            <summary>米画师约稿定金一般付多少比例？</summary>
+            <div class="ans">平台默认定金为总价 30%，画师可在委托页改为 20%—50%。定金通过平台托管，验收后释放；私下微信转账不受平台仲裁保护。定金比例越高，画师接单意愿越强，但甲方风险也越大，建议分两笔：定金 30%、线稿确认后 30%。</div>
+          </details>
+          <details class="faq">
+            <summary>商用授权和买断授权差在哪？</summary>
+            <div class="ans">商用授权限定使用范围，例如包装、电商详情页、线下海报，通常按使用场景加价 1.5—3 倍；买断授权转移著作权财产权，价格常见为原稿 5—10 倍。签约时需写明是否保留署名权、是否含改编权、期限多长，这三项决定最终倍数。</div>
+          </details>
+          <details class="faq">
+            <summary>画师福利活动的素材包能商用吗？</summary>
+            <div class="ans">多数福利素材包标注“个人练习可用、商用需另授权”。站酷 2026 年 10 月 28 日发布的秋季笔刷包说明中写明仅限个人非盈利用途，商用需联系作者。下载前先看包内 LICENSE.txt，别只看活动页的宣传语。</div>
+          </details>
+          <details class="faq">
+            <summary>约稿被画师拖稿怎么处理？</summary>
+            <div class="ans">先在平台委托页提交延期申诉，保留沟通记录与付款凭证；超过约定交付日 15 天可申请平台介入。私下委托的只能靠合同条款，建议约定逾期违约金为总价每日 0.5%，并在委托页写明。11月6日米画师已上线该字段。</div>
+          </details>
+          <details class="faq">
+            <summary>半次元素材区怎么筛选可商用条目？</summary>
+            <div class="ans">在素材区左侧筛选项勾选“授权类型-商用”，再按“CC0”“署名可商用”分层查看。标注 CC BY 4.0 的素材需在成品中署名原作者 ID，未署名的商用可能被追责。11月4日上线该筛选后，214 条背景纹理中可商用的为 76 条。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="block" id="comments">
+        <div class="block-head">
+          <div>
+            <h2>画师与甲方的真实反馈</h2>
+            <p class="sub">语气各异，含中性评价与具体吐槽</p>
+          </div>
+        </div>
+        <div class="comment-grid">
+          <div class="comment">
+            <div class="who"><span class="avatar">青</span><div><div class="name">青灰绘</div><div class="role">画师 · 米画师</div></div><span class="stars">★★★★★</span></div>
+            <p>双11加急位那 27 个名额里我挂了 3 个，加急费 30% 是合理的，因为确实要熬夜。但委托页不写修改轮次的甲方太多了，11月3日那单我做到第三版他还想改构图，最后按 60 元一轮收的费，事先说清就好。</p>
+          </div>
+          <div class="comment">
+            <div class="who"><span class="avatar">鹿</span><div><div class="name">鹿野</div><div class="role">画师 · 站酷约稿版</div></div><span class="stars">★★★★☆</span></div>
+            <p>按使用面积计价那套我用了两年，详情页首屏 2 倍、长图 1.8 倍。有人觉得贵，但长图要画 8 屏内容，工作量差三倍不止。合同里不写尺寸，最后甲方拿去做线下海报，扯皮一星期。</p>
+          </div>
+          <div class="comment">
+            <div class="who"><span class="avatar">阿</span><div><div class="name">阿湾</div><div class="role">电商店主 · 甲方</div></div><span class="stars">★★★☆☆</span></div>
+            <p>站酷那个笔刷包我下载了，480MB，解压后笔刷确实好用。但说明里写“个人练习”小小的，差点以为能直接用在详情页。后来回去看 LICENSE 才发现要联系作者，这条提醒放得太隐蔽。</p>
+          </div>
+          <div class="comment">
+            <div class="who"><span class="avatar">南</span><div><div class="name">南阶</div><div class="role">画师 · 个人委托</div></div><span class="stars">★★★★☆</span></div>
+            <p>12月排期我放了 6 个名额，半身立绘 520 元起，定金 30%。有甲方问能不能 15%，我一般拒绝，因为改稿成本兜不住。平台托管确实省心，10月有一单买家拖了 3 天不验收，仲裁两天就结了。</p>
+          </div>
+          <div class="comment">
+            <div class="who"><span class="avatar">纸</span><div><div class="name">纸飞机</div><div class="role">插画学生</div></div><span class="stars">★★★★★</span></div>
+            <p>半次元 11月4日那个筛选太好用了，以前一条条看授权说明，眼睛都花了。CC BY 4.0 的素材我拿来做过课程作业，署了作者 ID，老师也认这个。就是 76 条还是有点少，希望多来点纹理。</p>
+          </div>
+          <div class="comment">
+            <div class="who"><span class="avatar">老</span><div><div class="name">老杨</div><div class="role">品牌采购 · 甲方</div></div><span class="stars">★★☆☆☆</span></div>
+            <p>10月20日那份“著作权全部转让 8 倍”的模板，我们法务看了直摇头——没写期限、没写转授权，等于埋雷。后来改成了 5 倍独占 3 年，画师也接受。模板别乱用，条款差一个词，后面全变。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="block" id="news">
+        <div class="block-head">
+          <div>
+            <h2>相关资讯速览</h2>
+            <p class="sub">标题不复述摘要，摘要补足具体数字与来源</p>
+          </div>
+        </div>
+        <ul class="news-list">
+          <li>
+            <span class="date">11月7日</span>
+            <div><a class="title" href="/#updates">南阶开放 12 月排期，6 个名额分三批</a><p class="desc">半身立绘 520 元起，定金 30%，两轮免费修改。排期表显示 12 月 3 日、10 日、17 日各剩 2 位。</p></div>
+          </li>
+          <li>
+            <span class="date">11月6日</span>
+            <div><a class="title" href="/#faq">米画师委托页新增逾期违约金字段</a><p class="desc">默认按总价每日 0.5% 计，画师可改固定金额。11月6日后创建的委托单开始展示该字段。</p></div>
+          </li>
+          <li>
+            <span class="date">11月4日</span>
+            <div><a class="title" href="/#faq">半次元素材区授权分层筛选上线</a><p class="desc">新增 CC0、CC BY 4.0、署名可商用三档。背景纹理 214 条，勾选商用后剩 76 条，缩水 64%。</p></div>
+          </li>
+          <li>
+            <span class="date">10月31日</span>
+            <div><a class="title" href="/#overview">社区投票：修改轮次成最大分歧</a><p class="desc">1,842 人参与，34% 反馈指向修改轮次未写清，交期延误占 28%，定金比例占 21%。</p></div>
+          </li>
+          <li>
+            <span class="date">10月28日</span>
+            <div><a class="title" href="/#featured">站酷秋季笔刷包开放领取</a><p class="desc">36 支笔刷、12 张纹理，约 480MB，11月15日 23:59 关闭入口，包内说明限定个人练习。</p></div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="block" id="reco">
+        <div class="block-head">
+          <div>
+            <h2>相关推荐标签</h2>
+            <p class="sub">点标签跳到对应板块，不链到站外</p>
+          </div>
+        </div>
+        <div class="reco-tags">
+          <a href="/#featured">米画师双11加急位</a>
+          <a href="/#deep">商用授权加价倍数</a>
+          <a href="/#featured">站酷笔刷包领取</a>
+          <a href="/#faq">约稿定金比例</a>
+          <a href="/#faq">画师拖稿申诉</a>
+          <a href="/#deep">买断授权署名权</a>
+          <a href="/#overview">半身立绘报价</a>
+          <a href="/#guide">约稿修改轮次</a>
+          <a href="/#faq">半次元 CC BY 署名</a>
+          <a href="/#comments">Q版头像行情</a>
+        </div>
+      </section>
+
+      <!-- 补充板块：榜单 -->
+      <section class="block" id="rank">
+        <div class="block-head">
+          <div>
+            <h2>本周约稿热度榜</h2>
+            <p class="sub">按 10月31日至11月6日委托页浏览量排序</p>
+          </div>
+        </div>
+        <ul class="rank-list">
+          <li><span class="rank-no">1</span><div class="rank-info"><b>厚涂半身立绘 · 青灰绘</b><span>加急位 3 个 / 定金 30% / 修改两轮</span></div><span class="rank-score">2,140</span></li>
+          <li><span class="rank-no">2</span><div class="rank-info"><b>Q版头像套组 · 南阶</b><span>四张一组 680 元 / 12 月排期</span></div><span class="rank-score">1,876</span></li>
+          <li><span class="rank-no">3</span><div class="rank-info"><b>带场景商业插画 · 鹿野</b><span>按面积计价 / 首屏 2 倍</span></div><span class="rank-score">1,509</span></li>
+          <li><span class="rank-no">4</span><div class="rank-info"><b>电商详情页插画 · 纸飞机</b><span>学生接单 / 商用另议</span></div><span class="rank-score">1,203</span></li>
+          <li><span class="rank-no">5</span><div class="rank-info"><b>包装插画 · 老杨合作画师</b><span>买断 5 倍 / 独占 3 年</span></div><span class="rank-score">986</span></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="side-col" aria-label="侧栏">
+      <div class="side-card">
+        <h3>栏目导航</h3>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#featured">精选推荐</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">画师评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#rank">热度榜单</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>本周编辑关注</h3>
+        <ul class="side-hot">
+          <li><span class="n">01</span><span>米画师双11加急位 11月8日 20点截止提交需求文档</span></li>
+          <li><span class="n">02</span><span>站酷笔刷包 11月15日关闭领取，480MB 含 36 支笔刷</span></li>
+          <li><span class="n">03</span><span>买断合同四项权利：复制、发行、改编、署名</span></li>
+          <li><span class="n">04</span><span>半次元素材区商用筛选后仅剩 76 条背景纹理</span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>数据说明</h3>
+        <p class="side-note"><b>示例数据：</b>本页条目、画师署名、报价与浏览量均为演示用途生成，日期以 2026 年 11 月 8 日为参考日。涉及合同与授权的内容不构成法律意见，签约前请自行核对原文。</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#6b53c4"/>
+            <path d="M14 46l10-24 8 14 6-10 12 20z" fill="#ffd166"/>
+            <circle cx="46" cy="18" r="6" fill="#ff8fa3"/>
+          </svg>
+          <span>小小绘福利</span>
+        </div>
+        <p class="foot-desc">把约稿档期、授权条款与免费素材放在同一张时间表上，让画师接单前先看清规则，甲方报价前先比对行情。</p>
+      </div>
+      <div class="foot-col">
+        <h4>约稿频道</h4>
+        <ul>
+          <li><a href="/#featured">米画师双11加急位</a></li>
+          <li><a href="/#overview">半身立绘报价</a></li>
+          <li><a href="/#comments">Q版头像套组</a></li>
+          <li><a href="/#rank">本周约稿热度榜</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>授权与素材</h4>
+        <ul>
+          <li><a href="/#deep">商用授权加价倍数</a></li>
+          <li><a href="/#deep">买断与署名权</a></li>
+          <li><a href="/#featured">站酷笔刷包</a></li>
+          <li><a href="/#faq">半次元 CC BY 署名</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>帮助</h4>
+        <ul>
+          <li><a href="/#guide">约稿流程指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#reco">相关推荐标签</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      <div>
+        <p>示例数据说明：页面内画师署名、报价、浏览量均为演示生成，截止日期以 2026 年 11 月 8 日为参考。授权与合同内容不构成法律意见。</p>
+        <p>更新时间：2026-11-08 · 对应更新项：米画师违约金字段、半次元授权筛选、站酷笔刷包领取截止</p>
+      </div>
+      <p>© 2026 小小绘福利 · 保留所有权利</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var mainNav = document.getElementById('mainNav');
+  var navLinks = mainNav.querySelectorAll('a');
+
+  menuBtn.addEventListener('click', function(){
+    var open = mainNav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  navLinks.forEach(function(a){
+    a.addEventListener('click', function(){
+      if (window.innerWidth <= 760) {
+        mainNav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  });
+
+  document.addEventListener('click', function(e){
+    if (window.innerWidth <= 760 && mainNav.classList.contains('open') &&
+        !mainNav.contains(e.target) && !menuBtn.contains(e.target)) {
+      mainNav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+  });
+
+  // 侧栏滚动高亮
+  var sideLinks = document.querySelectorAll('#sideNav a');
+  var sections = [];
+  sideLinks.forEach(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    var el = document.getElementById(id);
+    if (el) sections.push({el: el, link: a});
+  });
+
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    var pos = window.scrollY + 160;
+    var current = null;
+    sections.forEach(function(s){
+      if (s.el.offsetTop <= pos) current = s;
+    });
+    sideLinks.forEach(function(a){ a.classList.remove('active'); });
+    if (current) current.link.classList.add('active');
+
+    if (window.scrollY > 500) toTop.classList.add('show');
+    else toTop.classList.remove('show');
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+    menuBtn.focus({preventScroll:true});
+  });
+
+  // 本地搜索
+  var input = document.getElementById('siteSearch');
+  var feedback = document.getElementById('searchFeedback');
+  var searchIndex = [];
+  document.querySelectorAll('.main-col h2, .main-col h3, .main-col h4, .news-list .title, .rank-info b, .comment .name').forEach(function(node){
+    var text = node.textContent.trim();
+    if (text) searchIndex.push({text: text, id: (node.closest('section') || {}).id || ''});
+  });
+
+  input.addEventListener('input', function(){
+    var q = input.value.trim().toLowerCase();
+    if (!q) { feedback.classList.remove('show'); feedback.textContent = ''; return; }
+    var hits = searchIndex.filter(function(item){
+      return item.text.toLowerCase().indexOf(q) > -1;
+    });
+    if (hits.length === 0) {
+      feedback.textContent = '没有找到与“' + input.value.trim() + '”相关的内容，试试“定金”“授权”“笔刷”。';
+    } else {
+      var top = hits.slice(0,3).map(function(h){ return h.text; });
+      feedback.textContent = '找到 ' + hits.length + ' 条：' + top.join(' / ') + (hits.length > 3 ? ' 等' : '');
+    }
+    feedback.classList.add('show');
+  });
+
+  input.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') {
+      input.value = '';
+      feedback.classList.remove('show');
+    }
+    if (e.key === 'Enter' && input.value.trim()) {
+      var q = input.value.trim().toLowerCase();
+      var first = searchIndex.filter(function(item){
+        return item.text.toLowerCase().indexOf(q) > -1 && item.id;
+      })[0];
+      if (first) {
+        var el = document.getElementById(first.id);
+        if (el) el.scrollIntoView({behavior:'smooth'});
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>
