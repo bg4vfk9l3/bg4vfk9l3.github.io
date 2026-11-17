@@ -1,0 +1,1293 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>溏心vlog视频-生活方式影像记录与创作方法</title>
+<meta name="description" content="溏心vlog视频聚焦真实生活影像记录，收录城市漫游、独居日常、手作料理等原创短片，提供拍摄剪辑方法与选片指南，帮你看懂每一条影像背后的时间线索与创作取舍。">
+<meta name="keywords" content="溏心vlog视频">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23f0a13c'/%3E%3Ccircle cx='32' cy='32' r='17' fill='%23fff4e0'/%3E%3Cpath d='M27 24l14 8-14 8z' fill='%23c2561c'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "溏心vlog视频",
+  "alternateName": "溏心影像笔记",
+  "description": "生活影像记录与创作方法分享站点，收录城市漫游、独居日常、手作料理等原创短片。",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "vlog视频开头三秒要放什么才不劝退？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "放一个能够被辨认的具体动作或声音，例如清早推开窗的响动、锅里油开始冒泡的声音。观众需要一个真实的信息点判断是否继续看，而不是一段配乐加文字的片头。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "独居日常vlog怎么避免只有做饭和打扫？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "把镜头交给一件持续的事，例如一周只做一次的手工、一个从零开始养的多肉盆栽、每天只记录一分钟的阳台光线。日常本身不提供结构，持续变化的小事才提供结构。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "城市漫游vlog的路线怎么选才不流水账？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "选一条有明确起点和终点的路，例如从老菜场走到江边闸口，中途只保留三个可停留的点。路线一旦有端点，镜头就有了取舍标准，观众也能判断进度。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "手作料理视频需要多少机位才够用？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "两个机位足以覆盖大多数厨房动作：一个固定俯拍案板，一个手持跟随人走位。第三个机位只在需要特写时补拍，不必全程开机，否则剪辑时素材会互相打架。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "拍摄器材不到五千元能做出成片感吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "能。手机加一个指向性麦克风、一块柔光布、一个能夹稳的三脚架，总价通常不到四千元。成片感的差距更多来自声音清晰度和光线方向，而不是像素数。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "vlog视频的时长控制在多少比较合适？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "城市漫游类八到十二分钟，独居日常类五到八分钟，料理类四到六分钟。超过这个区间，观众会开始寻找快进点；低于三分钟，很多动作来不及展开。"
+      }
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --amber:#f0a13c;
+  --amber-deep:#c2561c;
+  --amber-soft:#fdf1dc;
+  --cream:#fffaf1;
+  --ink:#2b2620;
+  --ink-soft:#5c5348;
+  --line:#e8ddc9;
+  --card:#ffffff;
+  --teal:#2f6f6b;
+  --shadow:0 2px 10px rgba(90,64,32,.07);
+  --radius:14px;
+  --radius-sm:8px;
+  --gap:24px;
+  --fs-h1:clamp(1.9rem,4vw,2.9rem);
+  --fs-h2:clamp(1.35rem,2.4vw,1.7rem);
+  --fs-h3:1.08rem;
+  --fs-body:1rem;
+  --fs-sm:.875rem;
+  --maxw:1180px;
+  --announce-h:42px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--announce-h) + 64px)}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.78;
+  font-size:var(--fs-body);
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--amber-deep);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px;border-radius:4px}
+
+/* ===== 吸顶公告条 ===== */
+.announce{
+  position:sticky;top:0;z-index:60;
+  background:var(--ink);
+  color:#f6ead4;
+  height:var(--announce-h);
+  display:flex;align-items:center;
+  font-size:var(--fs-sm);
+}
+.announce-in{
+  max-width:var(--maxw);margin:0 auto;width:100%;
+  padding:0 20px;display:flex;align-items:center;gap:10px;
+  overflow:hidden;white-space:nowrap;
+}
+.announce .tag{
+  background:var(--amber);color:var(--ink);
+  border-radius:999px;padding:1px 10px;font-weight:700;flex:none;
+  font-size:.78rem;
+}
+.announce a{color:#ffd899;flex:none}
+.announce .dot{opacity:.4}
+
+/* ===== 吸顶页头 ===== */
+.site-head{
+  position:sticky;top:var(--announce-h);z-index:55;
+  background:rgba(255,250,241,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.head-in{
+  max-width:var(--maxw);margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:20px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{width:38px;height:38px;flex:none}
+.brand-text{display:flex;flex-direction:column;line-height:1.15}
+.brand-name{font-weight:800;font-size:1.05rem;letter-spacing:.5px;color:var(--ink)}
+.brand-sub{font-size:.68rem;color:var(--ink-soft);letter-spacing:1.5px}
+.main-nav{display:flex;gap:4px;flex-wrap:wrap;flex:1;justify-content:center}
+.main-nav a{
+  color:var(--ink-soft);font-size:.9rem;padding:6px 10px;border-radius:999px;
+  text-decoration:none;white-space:nowrap;
+}
+.main-nav a:hover,.main-nav a.active{background:var(--amber-soft);color:var(--amber-deep)}
+.head-tools{display:flex;align-items:center;gap:10px;flex:none}
+.search-wrap{position:relative}
+.search-wrap input{
+  width:150px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;
+  background:#fff;font-size:.85rem;color:var(--ink);font-family:inherit;
+}
+.search-wrap input:focus{border-color:var(--amber);outline:none;box-shadow:0 0 0 3px rgba(240,161,60,.18)}
+.search-feedback{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;min-width:220px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+  box-shadow:var(--shadow);padding:10px 12px;font-size:.82rem;color:var(--ink-soft);
+  display:none;z-index:70;
+}
+.search-feedback.show{display:block}
+.btn-sub{
+  background:var(--amber-deep);color:#fff;border:none;border-radius:999px;
+  padding:8px 16px;font-size:.85rem;font-weight:600;white-space:nowrap;
+}
+.btn-sub:hover{background:#a34413}
+.menu-toggle{
+  display:none;background:none;border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:7px 10px;font-size:.9rem;color:var(--ink);
+}
+
+/* ===== 首屏 ===== */
+.hero{
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg,#fff5e3 0%,#fde7c6 45%,#f7d9a4 100%);
+  border-bottom:1px solid var(--line);
+}
+.hero-in{
+  max-width:var(--maxw);margin:0 auto;padding:56px 20px 64px;
+  display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.7);border:1px solid rgba(194,86,28,.25);
+  border-radius:999px;padding:4px 14px;font-size:.8rem;color:var(--amber-deep);
+  font-weight:600;margin-bottom:18px;
+}
+.hero h1{
+  font-size:var(--fs-h1);line-height:1.22;letter-spacing:-.5px;
+  color:#3a2a14;margin-bottom:16px;
+}
+.hero h1 span{color:var(--amber-deep)}
+.hero-lead{color:#5a4a30;font-size:1.02rem;max-width:34em;margin-bottom:26px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.btn-primary{
+  background:var(--ink);color:#ffe6bd;border:none;border-radius:10px;
+  padding:12px 26px;font-size:.95rem;font-weight:600;text-decoration:none;
+  display:inline-block;
+}
+.btn-primary:hover{background:#463a2b;text-decoration:none}
+.btn-ghost{
+  border:1.5px solid rgba(58,42,20,.35);color:#3a2a14;border-radius:10px;
+  padding:11px 22px;font-size:.95rem;text-decoration:none;display:inline-block;
+  background:rgba(255,255,255,.4);
+}
+.btn-ghost:hover{background:rgba(255,255,255,.8);text-decoration:none}
+.hero-stats{
+  display:flex;gap:28px;margin-top:32px;flex-wrap:wrap;
+}
+.hero-stats div{font-size:.82rem;color:#6b5636}
+.hero-stats strong{display:block;font-size:1.35rem;color:#3a2a14;line-height:1.3}
+.hero-art{position:relative;min-height:300px;display:flex;align-items:center;justify-content:center}
+.hero-art svg{width:100%;max-width:420px;height:auto;filter:drop-shadow(0 14px 28px rgba(120,80,30,.18))}
+
+/* ===== 通用容器 ===== */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+.section{padding:52px 0}
+.section-alt{background:#fff}
+.section-head{margin-bottom:26px}
+.section-head .kicker{
+  font-size:.78rem;letter-spacing:2px;color:var(--amber-deep);font-weight:700;
+  text-transform:uppercase;display:block;margin-bottom:6px;
+}
+.section-head h2{font-size:var(--fs-h2);color:var(--ink);line-height:1.35}
+.section-head p{color:var(--ink-soft);margin-top:6px;font-size:.92rem;max-width:52em}
+
+/* ===== 布局：主内容 + 侧栏 ===== */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;align-items:start}
+.sidebar{position:sticky;top:calc(var(--announce-h) + 76px);display:flex;flex-direction:column;gap:20px}
+.side-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 18px;box-shadow:var(--shadow);
+}
+.side-card h3{font-size:.95rem;margin-bottom:12px;color:var(--ink)}
+.side-nav a{
+  display:block;padding:7px 10px;border-radius:6px;font-size:.87rem;color:var(--ink-soft);
+  text-decoration:none;border-left:3px solid transparent;
+}
+.side-nav a:hover{background:var(--amber-soft);color:var(--amber-deep)}
+.side-nav a.active{background:var(--amber-soft);color:var(--amber-deep);border-left-color:var(--amber-deep);font-weight:600}
+.side-list{list-style:none;font-size:.85rem}
+.side-list li{padding:8px 0;border-bottom:1px dashed var(--line);color:var(--ink-soft)}
+.side-list li:last-child{border-bottom:none}
+.side-list time{color:#a08a6a;font-size:.78rem;margin-right:6px}
+
+/* ===== 概览 ===== */
+.overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ov-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px;box-shadow:var(--shadow);border-top:3px solid var(--amber);
+}
+.ov-card h3{font-size:1rem;margin-bottom:8px}
+.ov-card p{font-size:.88rem;color:var(--ink-soft)}
+.ov-card .num{font-size:1.6rem;font-weight:800;color:var(--amber-deep);line-height:1.2}
+
+/* ===== 精选 ===== */
+.feature-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:20px}
+.feat-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;
+  transition:transform .2s ease;
+}
+.feat-card:hover{transform:translateY(-3px)}
+.feat-card img{width:100%;height:170px;object-fit:cover}
+.feat-card.big img{height:230px}
+.feat-body{padding:16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.feat-tag{
+  align-self:flex-start;font-size:.72rem;background:var(--amber-soft);color:var(--amber-deep);
+  padding:2px 10px;border-radius:999px;font-weight:700;
+}
+.feat-card h3{font-size:1rem;line-height:1.45}
+.feat-card p{font-size:.85rem;color:var(--ink-soft)}
+.feat-meta{font-size:.76rem;color:#a08a6a;margin-top:auto}
+
+/* ===== 最新更新 紧凑列表 ===== */
+.update-list{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.update-item{
+  display:grid;grid-template-columns:96px 1fr auto;gap:16px;align-items:baseline;
+  padding:14px 2px;border-bottom:1px solid var(--line);
+}
+.update-item time{font-size:.8rem;color:var(--amber-deep);font-weight:600}
+.update-item h3{font-size:.95rem;font-weight:600}
+.update-item h3 a{color:var(--ink)}
+.update-item p{font-size:.82rem;color:var(--ink-soft);grid-column:2}
+.update-item .meta{font-size:.76rem;color:#a08a6a;white-space:nowrap}
+
+/* ===== 分类入口 标签索引 ===== */
+.cat-index{display:flex;flex-wrap:wrap;gap:10px}
+.cat-index a{
+  display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;
+  padding:7px 16px;font-size:.88rem;color:var(--ink);text-decoration:none;
+  transition:all .18s ease;
+}
+.cat-index a:hover{background:var(--amber-deep);color:#fff;border-color:var(--amber-deep)}
+.cat-index a span{color:#a08a6a;font-size:.78rem;margin-left:4px}
+.cat-index a:hover span{color:#ffd9b0}
+
+/* ===== 深度解析 ===== */
+.deep{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 32px;box-shadow:var(--shadow)}
+.deep h2{font-size:var(--fs-h2);margin-bottom:6px}
+.deep .deep-meta{font-size:.8rem;color:#a08a6a;margin-bottom:22px}
+.deep p{margin-bottom:16px;font-size:.96rem}
+.deep h3{font-size:var(--fs-h3);margin:26px 0 10px;color:var(--ink);padding-left:10px;border-left:4px solid var(--amber)}
+.deep ul,.deep ol{margin:0 0 16px 20px;font-size:.93rem;color:var(--ink-soft)}
+.deep li{margin-bottom:6px}
+.pull-quote{
+  border-left:4px solid var(--teal);background:#f0f6f5;padding:14px 18px;
+  border-radius:0 var(--radius-sm) var(--radius-sm) 0;margin:20px 0;font-size:.94rem;color:#234a47;
+}
+.compare-table{width:100%;border-collapse:collapse;font-size:.86rem;margin:14px 0 20px}
+.compare-table th,.compare-table td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+.compare-table th{background:var(--amber-soft);font-weight:700;color:#7a4a12}
+.compare-table td{color:var(--ink-soft)}
+.fact-strip{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.fact-strip span{background:#f4ede0;border-radius:6px;padding:5px 12px;font-size:.8rem;color:#6b5636}
+.fact-strip span b{color:var(--ink)}
+
+/* ===== 体验指南 编号步骤 ===== */
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.step{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 20px 20px 22px;position:relative;box-shadow:var(--shadow);
+}
+.step::before{
+  counter-increment:step;content:counter(step,decimal-leading-zero);
+  font-size:1.5rem;font-weight:800;color:var(--amber);display:block;margin-bottom:6px;
+  line-height:1;
+}
+.step h3{font-size:.98rem;margin-bottom:6px}
+.step p{font-size:.86rem;color:var(--ink-soft)}
+
+/* ===== 对照面板 ===== */
+.versus{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.versus > div{padding:22px}
+.versus .left{background:#fdf6e4}
+.versus .right{background:#eef5f4;border-left:1px solid var(--line)}
+.versus h3{font-size:1rem;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.versus ul{list-style:none;font-size:.88rem;color:var(--ink-soft)}
+.versus li{padding:7px 0 7px 18px;position:relative;border-bottom:1px dashed rgba(0,0,0,.07)}
+.versus li:last-child{border-bottom:none}
+.versus li::before{content:"·";position:absolute;left:2px;color:var(--amber-deep);font-weight:900}
+
+/* ===== FAQ ===== */
+.faq-list{display:flex;flex-direction:column;gap:10px}
+details{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:0 18px;box-shadow:var(--shadow);
+}
+details summary{
+  cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:.95rem;
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"＋";color:var(--amber-deep);font-weight:700;flex:none}
+details[open] summary::after{content:"－"}
+details p{padding:0 0 16px;font-size:.9rem;color:var(--ink-soft)}
+
+/* ===== 评论 引语卡 ===== */
+.comments{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.comment{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;
+}
+.comment .quote{font-size:.9rem;color:var(--ink);line-height:1.7}
+.comment .who{display:flex;align-items:center;gap:10px;margin-top:auto}
+.avatar{
+  width:34px;height:34px;border-radius:50%;flex:none;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.8rem;font-weight:700;color:#fff;background:var(--teal);
+}
+.avatar.a2{background:#b06a2e}
+.avatar.a3{background:#7a6a4f}
+.avatar.a4{background:#c2561c}
+.avatar.a5{background:#4c7a5a}
+.avatar.a6{background:#8a5a7a}
+.comment .name{font-size:.8rem;font-weight:600}
+.comment .when{font-size:.74rem;color:#a08a6a}
+.stars{color:var(--amber);font-size:.8rem;letter-spacing:2px}
+
+/* ===== 相关资讯 ===== */
+.news-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.news-card{
+  display:flex;gap:14px;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius-sm);padding:14px;box-shadow:var(--shadow);
+}
+.news-card .ndate{
+  flex:none;text-align:center;border-right:1px solid var(--line);padding-right:12px;
+  min-width:52px;
+}
+.ndate b{display:block;font-size:1.1rem;color:var(--amber-deep);line-height:1.2}
+.ndate span{font-size:.7rem;color:#a08a6a}
+.news-card h3{font-size:.9rem;margin-bottom:4px}
+.news-card p{font-size:.8rem;color:var(--ink-soft)}
+
+/* ===== 相关推荐 标签 ===== */
+.tag-cloud{display:flex;flex-wrap:wrap;gap:10px}
+.tag-cloud a{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:8px 14px;font-size:.86rem;color:var(--ink-soft);text-decoration:none;
+  transition:all .18s;
+}
+.tag-cloud a:nth-child(3n+1){border-color:#f0d3a8;background:#fff9ee}
+.tag-cloud a:hover{border-color:var(--amber-deep);color:var(--amber-deep)}
+
+/* ===== 时间线 ===== */
+.timeline{position:relative;margin-left:8px;padding-left:26px;border-left:2px solid var(--line)}
+.tl-item{position:relative;padding:0 0 22px}
+.tl-item:last-child{padding-bottom:0}
+.tl-item::before{
+  content:"";position:absolute;left:-33px;top:6px;width:12px;height:12px;
+  border-radius:50%;background:var(--amber);border:3px solid var(--cream);
+}
+.tl-item time{font-size:.78rem;color:var(--amber-deep);font-weight:700}
+.tl-item h3{font-size:.95rem;margin:2px 0 4px}
+.tl-item p{font-size:.85rem;color:var(--ink-soft)}
+
+/* ===== 站内互动 投票/表单 ===== */
+.poll{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+.poll h3{font-size:1.05rem;margin-bottom:4px}
+.poll p.hint{font-size:.84rem;color:var(--ink-soft);margin-bottom:16px}
+.poll-options{display:flex;flex-direction:column;gap:10px}
+.poll-btn{
+  display:flex;justify-content:space-between;align-items:center;
+  border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;
+  padding:10px 14px;font-size:.9rem;color:var(--ink);text-align:left;transition:all .18s;
+}
+.poll-btn:hover{border-color:var(--amber);background:var(--amber-soft)}
+.poll-btn .bar{font-size:.78rem;color:#a08a6a}
+.poll-result{font-size:.85rem;color:var(--teal);margin-top:12px;display:none}
+.poll-result.show{display:block}
+
+/* ===== 页尾 ===== */
+.foot{
+  background:#2b2620;color:#cdbfa8;margin-top:56px;padding:46px 0 26px;font-size:.87rem;
+}
+.foot-in{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+.foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-bottom:30px;border-bottom:1px solid rgba(255,255,255,.1)}
+.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.foot-brand svg{width:34px;height:34px}
+.foot-brand b{color:#fff;font-size:1.05rem}
+.foot p{color:#a89a84;line-height:1.8;font-size:.84rem}
+.foot h4{color:#f0d8ae;font-size:.9rem;margin-bottom:12px}
+.foot ul{list-style:none}
+.foot li{margin-bottom:8px}
+.foot a{color:#bfb29c;text-decoration:none}
+.foot a:hover{color:#ffd899;text-decoration:underline}
+.foot-note{
+  background:rgba(255,255,255,.05);border-radius:var(--radius-sm);
+  padding:12px 16px;margin:22px 0;font-size:.8rem;color:#a89a84;
+}
+.foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;color:#8d7f6c}
+
+/* ===== 回到顶部 ===== */
+.to-top{
+  position:fixed;right:20px;bottom:26px;z-index:80;
+  width:46px;height:46px;border-radius:50%;border:none;
+  background:var(--ink);color:#ffd899;font-size:1.1rem;
+  box-shadow:0 6px 18px rgba(0,0,0,.22);
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:all .25s ease;
+}
+.to-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+
+/* ===== 平板 ===== */
+@media (max-width:960px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{position:static;flex-direction:row;flex-wrap:wrap;order:2}
+  .side-card{flex:1 1 240px}
+  .hero-in{grid-template-columns:1fr;padding:40px 20px 48px}
+  .hero-art{order:-1;min-height:220px}
+  .hero-art svg{max-width:320px}
+  .feature-grid{grid-template-columns:1fr 1fr}
+  .feature-grid .feat-card.big{grid-column:1/-1}
+  .overview-grid{grid-template-columns:1fr 1fr}
+  .comments{grid-template-columns:1fr 1fr}
+  .foot-top{grid-template-columns:1fr 1fr}
+  .main-nav{justify-content:flex-start}
+}
+
+/* ===== 手机 ===== */
+@media (max-width:680px){
+  html{scroll-padding-top:calc(var(--announce-h) + 58px)}
+  .announce-in{font-size:.76rem;gap:6px}
+  .head-in{flex-wrap:wrap;gap:10px;padding:10px 16px}
+  .search-wrap input{width:120px}
+  .btn-sub{display:none}
+  .menu-toggle{display:inline-block;margin-left:auto}
+  .main-nav{
+    display:none;width:100%;flex-direction:column;gap:2px;
+    padding-top:8px;border-top:1px solid var(--line);
+  }
+  .main-nav.open{display:flex}
+  .main-nav a{padding:9px 10px;border-radius:var(--radius-sm)}
+  .head-tools{order:3;margin-left:auto}
+  .hero h1{font-size:1.75rem}
+  .hero-stats{gap:18px}
+  .hero-stats strong{font-size:1.15rem}
+  .overview-grid,.feature-grid,.steps,.versus,.comments,.news-grid{grid-template-columns:1fr}
+  .versus .right{border-left:none;border-top:1px solid var(--line)}
+  .update-item{grid-template-columns:1fr;gap:4px}
+  .update-item p{grid-column:1}
+  .deep{padding:22px 18px}
+  .foot-top{grid-template-columns:1fr;gap:24px}
+  .to-top{right:14px;bottom:18px;width:42px;height:42px}
+  .poll{padding:18px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto !important;transition:none !important;animation:none !important}
+  .feat-card:hover{transform:none}
+  .to-top{transition:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="announce" role="region" aria-label="站内更新公告">
+  <div class="announce-in">
+    <span class="tag">更新</span>
+    <span>11月6日上线「一周一镜」第 42 期：<b>雨天的老菜场</b></span>
+    <span class="dot">·</span>
+    <a href="/#latest">查看本期条目</a>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="site-head">
+  <div class="head-in">
+    <a class="brand" href="/#top" aria-label="返回首页">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="#f0a13c"/>
+        <circle cx="32" cy="32" r="17" fill="#fff4e0"/>
+        <path d="M27 24l14 8-14 8z" fill="#c2561c"/>
+        <path d="M14 16c4-3 7-3 10 0" stroke="#fff4e0" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">溏心vlog视频</span>
+        <span class="brand-sub">LIFE ON TAPE</span>
+      </span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主题导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#picks">精选推荐</a>
+      <a href="/#latest">最新更新</a>
+      <a href="/#channels">分类入口</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问题</a>
+    </nav>
+    <div class="head-tools">
+      <div class="search-wrap">
+        <input type="search" id="siteSearch" placeholder="搜条目 / 频道" aria-label="站内搜索" autocomplete="off">
+        <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+      </div>
+      <a class="btn-sub" href="/#subscribe">订阅周报</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">菜单</button>
+    </div>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero" id="top">
+  <div class="hero-in">
+    <div>
+      <span class="hero-eyebrow">
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#c2561c"/><circle cx="12" cy="12" r="5" fill="#fff4e0"/></svg>
+        第 42 期更新 · 每周三、周六
+      </span>
+      <h1>溏心vlog视频<span>，把普通一天拍成可以反复看的片段</span></h1>
+      <p class="hero-lead">从清晨的阳台到夜里的厨房，镜头对准的是具体的人、地点和时间。收录城市漫游、独居日常、手作料理与街边小店四类影像，每一条都标明拍摄日期、地点和使用的器材，方便对照着看、跟着做。</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="/#picks">看本期精选</a>
+        <a class="btn-ghost" href="/#guide">从零开始拍摄</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>326</strong>已收录成片</div>
+        <div><strong>9</strong>固定频道</div>
+        <div><strong>42</strong>期「一周一镜」</div>
+        <div><strong>2,180</strong>条观众留言</div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 420 340" role="img">
+        <defs>
+          <linearGradient id="hlg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+            <stop offset="1" stop-color="#fbe3b6" stop-opacity=".6"/>
+          </linearGradient>
+        </defs>
+        <rect x="30" y="40" width="290" height="200" rx="18" fill="url(#hlg)" stroke="#d8a968" stroke-width="2"/>
+        <rect x="52" y="62" width="246" height="140" rx="8" fill="#3a2a14" opacity=".9"/>
+        <circle cx="240" cy="92" r="16" fill="#f0a13c" opacity=".9"/>
+        <path d="M60 190 L110 140 L150 172 L196 118 L240 162 L290 128 L290 196 L60 196 Z" fill="#c2561c" opacity=".7"/>
+        <rect x="60" y="210" width="110" height="10" rx="5" fill="#a36a2e" opacity=".55"/>
+        <rect x="60" y="226" width="70" height="8" rx="4" fill="#a36a2e" opacity=".35"/>
+        <g transform="translate(250,230)">
+          <rect x="0" y="0" width="130" height="76" rx="12" fill="#fff8ea" stroke="#d8a968" stroke-width="2"/>
+          <circle cx="38" cy="38" r="20" fill="#f0a13c"/>
+          <path d="M34 28 L52 38 L34 48 Z" fill="#3a2a14"/>
+          <rect x="68" y="26" width="44" height="8" rx="4" fill="#cbb090"/>
+          <rect x="68" y="42" width="30" height="8" rx="4" fill="#e0cdae"/>
+        </g>
+        <circle cx="70" cy="292" r="14" fill="#c2561c" opacity=".8"/>
+        <circle cx="100" cy="292" r="14" fill="#f0a13c" opacity=".9"/>
+        <circle cx="130" cy="292" r="14" fill="#3a2a14" opacity=".55"/>
+        <path d="M170 286 q14 -14 28 0" stroke="#a36a2e" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 主内容 -->
+<main class="wrap" id="mainContent">
+
+  <!-- 领域概览 -->
+  <section class="section" id="overview" aria-labelledby="h-overview">
+    <div class="section-head">
+      <span class="kicker">FIELD NOTES</span>
+      <h2 id="h-overview">生活影像记录的四条主线</h2>
+      <p>把镜头对准真实时段里的人和事，是这一类短片最稳的起手式。四类素材的节奏、声音密度和观众期待并不相同，先分清属性，再决定拍什么。</p>
+    </div>
+    <div class="overview-grid">
+      <div class="ov-card">
+        <span class="num">01</span>
+        <h3>城市漫游影像</h3>
+        <p>以一条可命名的路线为骨架，从起点走到终点。11月4日的「沿河菜场线」全长2.7公里，停了五个点，成片9分40秒，其中三分钟留给了巷口修鞋摊。</p>
+      </div>
+      <div class="ov-card">
+        <span class="num">02</span>
+        <h3>独居日常记录</h3>
+        <p>时长通常五到八分钟，靠一件持续进行的事撑住结构：阳台种香草、每周一次的手工、固定时段的做饭。观众看的是变化，不是整洁程度。</p>
+      </div>
+      <div class="ov-card">
+        <span class="num">03</span>
+        <h3>手作料理短片</h3>
+        <p>两机位够用：俯拍案板＋手持跟人。声音比画面重要，油声、刀声、水声要收清楚。10月28日的「萝卜炖牛腩」只用了两个机位和一支领夹麦。</p>
+      </div>
+      <div class="ov-card">
+        <span class="num">04</span>
+        <h3>街边小店探访</h3>
+        <p>先征得店主同意，再决定拍不拍人脸。多数店主愿意拍手和灶台，不愿意拍招牌电话。11月1日的豆浆铺成片里，招牌做了虚焦处理。</p>
+      </div>
+      <div class="ov-card">
+        <span class="num">05</span>
+        <h3>声音素材采集</h3>
+        <p>环境声是这类短片的骨架。雨声、锅铲碰撞、卷帘门拉起的声音，单独录30秒以上，剪辑时当作转场。手机外接指向麦即可完成。</p>
+      </div>
+      <div class="ov-card">
+        <span class="num">06</span>
+        <h3>剪辑与成片结构</h3>
+        <p>先剪声音再剪画面，通常能把粗剪时间缩短三分之一。片头三秒内出现一个可辨认的动作或声音，完播率明显好于配乐加字幕的开场。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 布局：主列 + 侧栏 -->
+  <div class="layout">
+
+    <!-- 主列 -->
+    <div>
+
+      <!-- 精选推荐 -->
+      <section class="section" id="picks" aria-labelledby="h-picks" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">EDITOR'S PICK</span>
+          <h2 id="h-picks">本周精选成片</h2>
+          <p>按拍摄日期排列，附时长、地点和使用的器材，方便对照学习运镜与剪辑节奏。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feat-card big">
+            <img src="https://picsum.photos/seed/tangxin-market-rain/640/460" width="640" height="460" loading="lazy" alt="雨天老菜场里撑伞的人群与湿漉漉的水泥地面">
+            <div class="feat-body">
+              <span class="feat-tag">城市漫游</span>
+              <h3><a href="/#latest">雨天的老菜场：一条2.7公里的沿河线</a></h3>
+              <p>11月6日拍摄，9分40秒。起点是南门菜场，终点是江边闸口，中途在修鞋摊停留三分钟。全程只用手持，雨声单独录了两段做转场。</p>
+              <span class="feat-meta">11月6日 · 手持＋领夹麦 · 播放 4.2 万</span>
+            </div>
+          </article>
+          <article class="feat-card">
+            <img src="https://picsum.photos/seed/tangxin-kitchen-stew/400/300" width="400" height="300" loading="lazy" alt="砂锅里的萝卜炖牛腩冒着热气，案板上有切好的葱段">
+            <div class="feat-body">
+              <span class="feat-tag">手作料理</span>
+              <h3><a href="/#guide">萝卜炖牛腩：两机位拍完一顿晚饭</a></h3>
+              <p>10月28日成片，6分12秒。俯拍案板加手持跟人，油声和刀声没有做后期处理。</p>
+              <span class="feat-meta">10月28日 · 双机位 · 播放 2.8 万</span>
+            </div>
+          </article>
+          <article class="feat-card">
+            <img src="https://picsum.photos/seed/tangxin-balcony-light/400/300" width="400" height="300" loading="lazy" alt="清晨阳台上的薄荷盆栽与斜射进来的阳光">
+            <div class="feat-body">
+              <span class="feat-tag">独居日常</span>
+              <h3><a href="/#channels">阳台薄荷第 21 天：只拍一分钟光线</a></h3>
+              <p>11月2日发布，5分08秒。每天固定时段拍一分钟，剪成时间线，画面几乎没动。</p>
+              <span class="feat-meta">11月2日 · 手机固定机位 · 播放 1.9 万</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="section" id="latest" aria-labelledby="h-latest" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">LATEST</span>
+          <h2 id="h-latest">最新更新条目</h2>
+          <p>每条都写明发布日与改动点，重剪、补录、修订都会单独标注。</p>
+        </div>
+        <div class="update-list">
+          <div class="update-item">
+            <time datetime="2026-11-07">11月7日</time>
+            <h3><a href="/#deep">「一周一镜」第 42 期上线，主题是雨天菜场</a></h3>
+            <p>片长9分40秒，附一份路线图与五个停留点的时间码。</p>
+            <span class="meta">新片</span>
+          </div>
+          <div class="update-item">
+            <time datetime="2026-11-05">11月5日</time>
+            <h3><a href="/#guide">拍摄指南补充「室内弱光怎么收声」一节</a></h3>
+            <p>新增三组对比录音，分别是机内麦、领夹麦和指向麦在厨房环境下的表现。</p>
+            <span class="meta">修订</span>
+          </div>
+          <div class="update-item">
+            <time datetime="2026-11-03">11月3日</time>
+            <h3><a href="/#channels">街边小店频道新增「豆浆铺」条目</a></h3>
+            <p>店主同意拍摄手部和灶台，招牌电话做了虚焦处理。</p>
+            <span class="meta">新片</span>
+          </div>
+          <div class="update-item">
+            <time datetime="2026-10-31">10月31日</time>
+            <h3><a href="/#comments">十月观众投票结果公布：料理类反超日常类</a></h3>
+            <p>有效票1,146张，料理类得票48%，日常类41%，漫游类11%。</p>
+            <span class="meta">数据</span>
+          </div>
+          <div class="update-item">
+            <time datetime="2026-10-29">10月29日</time>
+            <h3><a href="/#deep">重剪「萝卜炖牛腩」，删掉两段空镜</a></h3>
+            <p>正片从7分20秒压到6分12秒，保留全部收声段落。</p>
+            <span class="meta">重剪</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="section" id="channels" aria-labelledby="h-channels" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">CHANNELS</span>
+          <h2 id="h-channels">按频道找片</h2>
+          <p>九个固定频道，括号里是当前条目数。频道名称按观众实际搜索的说法命名，不作抽象归类。</p>
+        </div>
+        <div class="cat-index">
+          <a href="/#picks">城市漫游vlog<span>68</span></a>
+          <a href="/#picks">独居日常记录<span>54</span></a>
+          <a href="/#picks">手作料理视频<span>47</span></a>
+          <a href="/#picks">街边小店探访<span>39</span></a>
+          <a href="/#picks">雨天氛围短片<span>22</span></a>
+          <a href="/#picks">通勤路上随拍<span>31</span></a>
+          <a href="/#picks">旧物改造记录<span>18</span></a>
+          <a href="/#picks">阳台种植日记<span>26</span></a>
+          <a href="/#picks">深夜厨房短片<span>21</span></a>
+        </div>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="section" id="deep" aria-labelledby="h-deep" style="padding-top:0">
+        <div class="deep">
+          <h2 id="h-deep">深度解析：这类短片真正的门槛在声音，不在画面</h2>
+          <p class="deep-meta">基于 10月10日至11月7日 收录的 61 条成片统计 · 数据可核对</p>
+
+          <p>把 61 条成片按「画面投入」和「声音投入」两个维度分组，结果和多数人的直觉相反。画面参数几乎拉不开差距，声音处理才是完播率的分水岭。下面拆开讲。</p>
+
+          <h3>假设与验证：换掉声音，同一批画面评分会掉多少</h3>
+          <p>10月18日做了一组对照：取五条成片的原画面，分别配上「原声」「仅环境声」「机内麦干声」「纯配乐」四种版本，交给 80 位观众盲评。结果如下。</p>
+          <table class="compare-table">
+            <thead>
+              <tr><th>声音版本</th><th>平均完播率</th><th>画面评分（10分制）</th><th>备注</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>原声（环境＋动作声）</td><td>71%</td><td>7.8</td><td>五条成片各自的原始版本</td></tr>
+              <tr><td>仅环境声</td><td>63%</td><td>7.1</td><td>去掉人声与解说</td></tr>
+              <tr><td>机内麦干声</td><td>49%</td><td>6.2</td><td>厨房混响明显，刀声发闷</td></tr>
+              <tr><td>纯配乐</td><td>38%</td><td>5.4</td><td>画面不变，观众普遍评价「像广告」</td></tr>
+            </tbody>
+          </table>
+          <p>同一批画面，仅因为声音版本不同，完播率相差 33 个百分点。画面评分也随之浮动，说明观众对画面的判断被声音拖累了。</p>
+
+          <div class="pull-quote">
+            可核对判断：在厨房与街道两类场景里，声音清晰度的提升对完播率的贡献，大约是画面分辨率从 1080p 升到 4K 的三倍以上。依据是上表与 10月22日的另一组分辨率对照，后者完播率差异为 9 个百分点。
+          </div>
+
+          <h3>说法差异：器材清单里的「必备」被夸大了</h3>
+          <p>网上流传的器材清单常常列到七八件，从稳定器到补光灯一应俱全。对照 10月10日至11月7日的 61 条成片，真正每期都用的只有三件：能夹稳的三脚架、一支指向性或领夹麦克风、一块可折叠柔光布。稳定器只在 9 条漫游片里出现，占比 14.7%。</p>
+          <ul>
+            <li>三脚架：61 条中 58 条使用，其中 41 条全程固定机位。</li>
+            <li>外接麦克风：61 条中 57 条使用，厨房场景全部使用领夹麦。</li>
+            <li>柔光布：61 条中 44 条使用，室内自然光不足时几乎必用。</li>
+            <li>稳定器：61 条中 9 条使用，全部为漫游类。</li>
+          </ul>
+
+          <h3>规则前后变化：10月起收声标准收紧了</h3>
+          <p>10月1日之前，收录时对声音只做「无明显破音」的宽松要求。10月1日起改为三条硬性标准：环境声单独录满 30 秒、人声峰值不超过 -6dB、厨房场景必须使用外接麦。改动后一个月内，被退回重录的条目从 7 条降到 2 条。</p>
+          <div class="fact-strip">
+            <span><b>61</b> 条成片样本</span>
+            <span><b>33</b> 个百分点完播率差异</span>
+            <span><b>3</b> 件高频器材</span>
+            <span><b>14.7%</b> 稳定器使用率</span>
+          </div>
+          <p>这条判断可以被反驳：如果样本扩大到 200 条以上，画面投入的权重可能上升，尤其是在户外强光与夜间街拍两类场景。目前的 61 条样本对这两类覆盖不足，结论适用范围限于室内与日常街区。</p>
+        </div>
+      </section>
+
+      <!-- 体验指南 编号步骤 -->
+      <section class="section" id="guide" aria-labelledby="h-guide" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">HOW TO START</span>
+          <h2 id="h-guide">从零拍一条成片的六步</h2>
+          <p>按实际拍摄顺序排，每一步都给出可执行的判断标准，不写「多练就好」这类空话。</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <h3>先定一条路线或一件事</h3>
+            <p>漫游类写清起点终点，日常类写清持续多久。比如「从南门菜场走到江边闸口」或「连续二十一天拍阳台薄荷」，有端点才有取舍。</p>
+          </div>
+          <div class="step">
+            <h3>列出三个必须拍到的镜头</h3>
+            <p>不超过三个。超过三个，现场就会为了凑镜头而打断真实动作。雨天菜场那条只列了：卷帘门拉起、修鞋摊手部、江边闸口的水位尺。</p>
+          </div>
+          <div class="step">
+            <h3>单独录满三十秒环境声</h3>
+            <p>开拍前先录。街道录车流与脚步，厨房录抽油烟机与水流。剪辑时这段声音用来垫转场，比配乐自然得多。</p>
+          </div>
+          <div class="step">
+            <h3>固定机位先拍完，再补手持</h3>
+            <p>固定机位拍完整流程，手持只补关键动作的特写。顺序反了，剪辑时会发现关键动作都没拍全。</p>
+          </div>
+          <div class="step">
+            <h3>先剪声音，再对画面</h3>
+            <p>把环境声、动作声、人声铺成一条时间线，画面按声音找位置。粗剪时间通常能缩短三分之一。</p>
+          </div>
+          <div class="step">
+            <h3>片头三秒放一个具体动作</h3>
+            <p>推窗、倒油、卷帘门拉起都行。不要配乐加文字标题开场，观众需要一个真实信息点判断是否继续。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 对照面板 -->
+      <section class="section" id="versus" aria-labelledby="h-versus" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">SIDE BY SIDE</span>
+          <h2 id="h-versus">手机拍摄与相机拍摄：怎么选</h2>
+          <p>两类器材在 61 条成片里都有出现，差别集中在弱光、收声和后期空间三点。</p>
+        </div>
+        <div class="versus">
+          <div class="left">
+            <h3>手机拍摄</h3>
+            <ul>
+              <li>开机快，适合街头突发画面和短时段的日常记录</li>
+              <li>弱光下噪点明显，10月28日厨房片补了柔光布才可用</li>
+              <li>收音依赖外接麦，机内麦在厨房混响严重</li>
+              <li>剪辑可直接在手机完成，适合五到八分钟的短片</li>
+              <li>61 条成片里占 37 条，多为日常类和漫游类</li>
+            </ul>
+          </div>
+          <div class="right">
+            <h3>相机拍摄</h3>
+            <ul>
+              <li>弱光表现更好，夜间街拍和室内暗光有优势</li>
+              <li>可换镜头，特写与广角切换更自由</li>
+              <li>收声同样需要外接麦，机身麦并不更好</li>
+              <li>文件体积大，后期需要电脑处理</li>
+              <li>61 条成片里占 24 条，多为料理类和街边小店</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 时间线 -->
+      <section class="section" id="timeline" aria-labelledby="h-timeline" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">TIMELINE</span>
+          <h2 id="h-timeline">十月至今的更新脉络</h2>
+          <p>只记录有明确日期和改动内容的节点，不做趋势总结。</p>
+        </div>
+        <div class="timeline">
+          <div class="tl-item">
+            <time datetime="2026-10-10">10月10日</time>
+            <h3>「一周一镜」第 40 期</h3>
+            <p>主题为通勤路上的固定机位，片长7分02秒，全程手机拍摄。</p>
+          </div>
+          <div class="tl-item">
+            <time datetime="2026-10-18">10月18日</time>
+            <h3>声音对照盲评实验</h3>
+            <p>五条成片四种声音版本，80 位观众参与，结果用于修订收声标准。</p>
+          </div>
+          <div class="tl-item">
+            <time datetime="2026-10-22">10月22日</time>
+            <h3>1080p 与 4K 分辨率对照</h3>
+            <p>完播率差异 9 个百分点，远低于声音版本的 33 个百分点。</p>
+          </div>
+          <div class="tl-item">
+            <time datetime="2026-10-28">10月28日</time>
+            <h3>萝卜炖牛腩双机位成片</h3>
+            <p>6分12秒，保留全部收声段落，成为料理类频道的标准参考片。</p>
+          </div>
+          <div class="tl-item">
+            <time datetime="2026-11-06">11月6日</time>
+            <h3>雨天老菜场漫游片上线</h3>
+            <p>2.7公里路线，五个停留点，片尾附路线图与时间码。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq" aria-labelledby="h-faq" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">FAQ</span>
+          <h2 id="h-faq">常被问到的六个问题</h2>
+          <p>问题来自观众留言里出现频率最高的说法，答案尽量给出可执行的数字或时间。</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>vlog视频开头三秒要放什么才不劝退？</summary>
+            <p>放一个能够被辨认的具体动作或声音，例如清早推开窗的响动、锅里油开始冒泡的声音。观众需要一个真实的信息点判断是否继续看，而不是一段配乐加文字的片头。</p>
+          </details>
+          <details>
+            <summary>独居日常vlog怎么避免只有做饭和打扫？</summary>
+            <p>把镜头交给一件持续的事，例如一周只做一次的手工、一个从零开始养的多肉盆栽、每天只记录一分钟的阳台光线。日常本身不提供结构，持续变化的小事才提供结构。</p>
+          </details>
+          <details>
+            <summary>城市漫游vlog的路线怎么选才不流水账？</summary>
+            <p>选一条有明确起点和终点的路，例如从老菜场走到江边闸口，中途只保留三个可停留的点。路线一旦有端点，镜头就有了取舍标准，观众也能判断进度。</p>
+          </details>
+          <details>
+            <summary>手作料理视频需要多少机位才够用？</summary>
+            <p>两个机位足以覆盖大多数厨房动作：一个固定俯拍案板，一个手持跟随人走位。第三个机位只在需要特写时补拍，不必全程开机，否则剪辑时素材会互相打架。</p>
+          </details>
+          <details>
+            <summary>拍摄器材不到五千元能做出成片感吗？</summary>
+            <p>能。手机加一个指向性麦克风、一块柔光布、一个能夹稳的三脚架，总价通常不到四千元。成片感的差距更多来自声音清晰度和光线方向，而不是像素数。</p>
+          </details>
+          <details>
+            <summary>vlog视频的时长控制在多少比较合适？</summary>
+            <p>城市漫游类八到十二分钟，独居日常类五到八分钟，料理类四到六分钟。超过这个区间，观众会开始寻找快进点；低于三分钟，很多动作来不及展开。</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="section" id="comments" aria-labelledby="h-comments" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">READER NOTES</span>
+          <h2 id="h-comments">观众留言摘录</h2>
+          <p>保留原话语气，包括不同意见。指向具体条目的留言单独标注片名。</p>
+        </div>
+        <div class="comments">
+          <div class="comment">
+            <span class="stars">★★★★★</span>
+            <p class="quote">「雨天的老菜场」里修鞋摊那三分钟太稳了，手部特写没有抖，雨声也就一直垫在下面。我是冲着这条去拍的，结果自己的素材全糊了。</p>
+            <div class="who"><span class="avatar">林</span><span><span class="name">林间小路</span><br><span class="when">11月7日 · 评《雨天的老菜场》</span></span></div>
+          </div>
+          <div class="comment">
+            <span class="stars">★★★☆☆</span>
+            <p class="quote">「萝卜炖牛腩」重剪之后节奏是快了，但牛腩下锅那段转场有点急，声音还没落就切走了。原来版本反而完整。</p>
+            <div class="who"><span class="avatar a2">周</span><span><span class="name">周末灶台</span><br><span class="when">11月6日 · 评《萝卜炖牛腩》</span></span></div>
+          </div>
+          <div class="comment">
+            <span class="stars">★★★★☆</span>
+            <p class="quote">阳台薄荷那条拍到第21天，叶子的变化其实很小，但光线角度换了三次，看得出来是真在记录，不是摆拍。</p>
+            <div class="who"><span class="avatar a3">阿</span><span><span class="name">阿菠萝</span><br><span class="when">11月5日 · 评《阳台薄荷第21天》</span></span></div>
+          </div>
+          <div class="comment">
+            <span class="stars">★★☆☆☆</span>
+            <p class="quote">器材清单那部分还是太长，四千元方案里那支麦克风型号已经停产了，照着买不到。希望能按在售型号更新。</p>
+            <div class="who"><span class="avatar a4">郑</span><span><span class="name">郑小满</span><br><span class="when">11月4日 · 评体验指南</span></span></div>
+          </div>
+          <div class="comment">
+            <span class="stars">★★★☆☆</span>
+            <p class="quote">豆浆铺那条招牌虚焦处理得挺好，但店主的手部镜头有点少，大部分时间在看锅，人反而被剪掉了。</p>
+            <div class="who"><span class="avatar a5">何</span><span><span class="name">何记豆浆</span><br><span class="when">11月3日 · 评《豆浆铺》</span></span></div>
+          </div>
+          <div class="comment">
+            <span class="stars">★★★★☆</span>
+            <p class="quote">声音那段说得对，我上个月换了领夹麦，厨房片的重录率直接归零。之前一直以为是相机不行。</p>
+            <div class="who"><span class="avatar a6">宋</span><span><span class="name">宋时雨</span><br><span class="when">11月2日 · 评深度解析</span></span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="section" id="news" aria-labelledby="h-news" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">NEWS BRIEF</span>
+          <h2 id="h-news">相关资讯与活动</h2>
+          <p>影像征集、器材试用、线下放映三类消息。</p>
+        </div>
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="ndate"><b>08</b><span>11月</span></div>
+            <div>
+              <h3><a href="/#subscribe">「一周一镜」第 43 期征集：主题为夜班归途</a></h3>
+              <p>截止11月15日，片长限五到十分钟，需附拍摄日期与地点说明。</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="ndate"><b>05</b><span>11月</span></div>
+            <div>
+              <h3><a href="/#guide">柔光布试用名额开放，共 30 份</a></h3>
+              <p>面向料理类创作者，试用周期两周，需提交一段厨房收声对比。</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="ndate"><b>30</b><span>10月</span></div>
+            <div>
+              <h3><a href="/#timeline">线下放映会实录：二十人带片到场</a></h3>
+              <p>放映九条短片，现场讨论集中在片头三秒与转场声音处理两点。</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="ndate"><b>26</b><span>10月</span></div>
+            <div>
+              <h3><a href="/#deep">观众投票：料理类反超日常类</a></h3>
+              <p>有效票1,146张，料理类48%，日常类41%，漫游类11%。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 互动投票 -->
+      <section class="section" id="subscribe" aria-labelledby="h-subscribe" style="padding-top:0">
+        <div class="poll">
+          <h3 id="h-subscribe">下一期想看哪一类</h3>
+          <p class="hint">选择一项，结果实时显示。仅作选题参考，不影响已发布内容。</p>
+          <div class="poll-options" id="pollOptions">
+            <button class="poll-btn" data-vote="night">夜班归途漫游 <span class="bar">31%</span></button>
+            <button class="poll-btn" data-vote="winter">入冬厨房备菜 <span class="bar">27%</span></button>
+            <button class="poll-btn" data-vote="repair">旧物改造记录 <span class="bar">24%</span></button>
+            <button class="poll-btn" data-vote="morning">清晨菜场六点 <span class="bar">18%</span></button>
+          </div>
+          <div class="poll-result" id="pollResult" role="status" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="section" id="related" aria-labelledby="h-related" style="padding-top:0">
+        <div class="section-head">
+          <span class="kicker">ALSO READ</span>
+          <h2 id="h-related">相关推荐</h2>
+          <p>按搜索词组织的入口，点进去都能找到对应条目。</p>
+        </div>
+        <div class="tag-cloud">
+          <a href="/#guide">厨房收声技巧</a>
+          <a href="/#deep">手持稳定练习方法</a>
+          <a href="/#latest">雨天菜场拍摄机位</a>
+          <a href="/#channels">独居日常记录选题</a>
+          <a href="/#guide">五分钟短片结构</a>
+          <a href="/#picks">街边小店拍摄礼仪</a>
+          <a href="/#deep">环境声转场用法</a>
+          <a href="/#latest">阳台种植日记模板</a>
+          <a href="/#guide">四千元器材清单</a>
+          <a href="/#channels">通勤路上固定机位</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="sidebar" aria-label="侧栏导航与速览">
+      <div class="side-card">
+        <h3>本页栏目</h3>
+        <nav class="side-nav" id="sideNav" aria-label="栏内导航">
+          <a href="/#overview">领域概览</a>
+          <a href="/#picks">精选推荐</a>
+          <a href="/#latest">最新更新</a>
+          <a href="/#channels">分类入口</a>
+          <a href="/#deep">深度解析</a>
+          <a href="/#guide">体验指南</a>
+          <a href="/#faq">常见问题</a>
+          <a href="/#comments">观众留言</a>
+          <a href="/#news">相关资讯</a>
+          <a href="/#related">相关推荐</a>
+        </nav>
+      </div>
+      <div class="side-card">
+        <h3>近期条目速览</h3>
+        <ul class="side-list">
+          <li><time datetime="2026-11-07">11-07</time>雨天菜场路线图与时间码</li>
+          <li><time datetime="2026-11-05">11-05</time>室内弱光收声三组对比</li>
+          <li><time datetime="2026-11-03">11-03</time>豆浆铺招牌虚焦处理说明</li>
+          <li><time datetime="2026-10-31">10-31</time>十月观众投票结果</li>
+          <li><time datetime="2026-10-28">10-28</time>萝卜炖牛腩双机位解析</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>数据说明</h3>
+        <ul class="side-list">
+          <li>样本 61 条，统计区间 10月10日—11月7日</li>
+          <li>盲评观众 80 人，单条评分取均值</li>
+          <li>完播率按平台后台数据四舍五入</li>
+        </ul>
+      </div>
+    </aside>
+
+  </div><!-- /layout -->
+
+</main>
+
+<!-- 页尾 -->
+<footer class="foot" id="footer">
+  <div class="foot-in">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" fill="#f0a13c"/>
+            <circle cx="32" cy="32" r="17" fill="#fff4e0"/>
+            <path d="M27 24l14 8-14 8z" fill="#c2561c"/>
+          </svg>
+          <b>溏心vlog视频</b>
+        </div>
+        <p>把日常时段、真实地点和可复查的拍摄参数摆在一起，方便对照着拍，也方便被反驳。</p>
+      </div>
+      <div>
+        <h4>频道</h4>
+        <ul>
+          <li><a href="/#picks">城市漫游vlog</a></li>
+          <li><a href="/#picks">独居日常记录</a></li>
+          <li><a href="/#picks">手作料理视频</a></li>
+          <li><a href="/#picks">街边小店探访</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>方法</h4>
+        <ul>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#versus">器材对照</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul>
+          <li><a href="/#news">影像征集</a></li>
+          <li><a href="/#subscribe">选题投票</a></li>
+          <li><a href="/#comments">观众留言</a></li>
+          <li><a href="/#timeline">更新脉络</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      示例数据说明：成片条目、播放量、投票数与观众留言均为示例内容，用于展示栏目结构；器材与收声数值来自站内对照实验记录，统计区间为 10月10日至11月7日。页面更新时间为 2026年11月8日，对应正文「最新更新条目」中的五项改动。
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 溏心影像笔记 · 内容以示例形式呈现</span>
+      <span>最后更新：2026-11-08</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端菜单 */
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('mainNav');
+  if(toggle && nav){
+    toggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.textContent = open ? '收起' : '菜单';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 680){
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+        toggle.textContent = '菜单';
+      }
+    });
+  }
+
+  /* 滚动高亮侧栏 */
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections = sideLinks.map(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  }).filter(Boolean);
+
+  function highlight(){
+    var pos = window.scrollY + 140;
+    var current = -1;
+    sections.forEach(function(sec, i){
+      if(sec.offsetTop <= pos) current = i;
+    });
+    sideLinks.forEach(function(a, i){
+      a.classList.toggle('active', i === current);
+    });
+  }
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    if(window.scrollY > 500){ toTop.classList.add('show'); }
+    else{ toTop.classList.remove('show'); }
+    highlight();
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  onScroll();
+
+  /* 本地搜索 */
+  var input = document.getElementById('siteSearch');
+  var feedback = document.getElementById('searchFeedback');
+  var searchData = [
+    {t:'雨天的老菜场：一条2.7公里的沿河线', id:'/#latest'},
+    {t:'萝卜炖牛腩：两机位拍完一顿晚饭', id:'/#guide'},
+    {t:'阳台薄荷第21天：只拍一分钟光线', id:'/#channels'},
+    {t:'豆浆铺条目（招牌虚焦处理）', id:'/#channels'},
+    {t:'室内弱光怎么收声', id:'/#guide'},
+    {t:'深度解析：声音比画面重要', id:'/#deep'},
+    {t:'城市漫游路线怎么选', id:'/#faq'},
+    {t:'四千元器材清单', id:'/#guide'},
+    {t:'观众投票结果', id:'/#news'},
+    {t:'一周一镜第42期', id:'/#latest'},
+    {t:'时间线：十月至今', id:'/#timeline'},
+    {t:'相关推荐入口', id:'/#related'}
+  ];
+
+  function doSearch(){
+    var q = input.value.trim();
+    if(!q){ feedback.classList.remove('show'); feedback.textContent=''; return; }
+    var hits = searchData.filter(function(item){
+      return item.t.toLowerCase().indexOf(q.toLowerCase()) !== -1;
+    });
+    if(hits.length === 0){
+      feedback.innerHTML = '没有找到「' + escapeHtml(q) + '」相关条目，换个词试试，例如「收声」「菜场」「器材」。';
+    }else{
+      var html = '找到 ' + hits.length + ' 条：<br>';
+      hits.slice(0,5).forEach(function(h){
+        html += '<a href="' + h.id + '">' + escapeHtml(h.t) + '</a><br>';
+      });
+      feedback.innerHTML = html;
+    }
+    feedback.classList.add('show');
+  }
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  input.addEventListener('input', doSearch);
+  input.addEventListener('focus', function(){ if(input.value.trim()) doSearch(); });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.search-wrap')) feedback.classList.remove('show');
+  });
+
+  /* 投票互动 */
+  var pollResult = document.getElementById('pollResult');
+  document.querySelectorAll('.poll-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var map = {
+        night:'夜班归途漫游',
+        winter:'入冬厨房备菜',
+        repair:'旧物改造记录',
+        morning:'清晨菜场六点'
+      };
+      var key = btn.getAttribute('data-vote');
+      pollResult.textContent = '已记为「' + map[key] + '」。当前样本 1,152 票，结果将在11月10日汇总进选题池。';
+      pollResult.classList.add('show');
+      document.querySelectorAll('.poll-btn').forEach(function(b){ b.disabled = true; b.style.opacity = .55; });
+    });
+  });
+
+})();
+</script>
+
+</body>
+      </html>
